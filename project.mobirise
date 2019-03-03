@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jensen Car Club of Australia",
-    "currentPage": "Club-Events+Calendar.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -6612,7 +6612,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n src=\"@ADDONS_PATH@/code-editor/pro.custom-html/assets/code-editor-placeholder.jpg\"&gt;\n<iframe id=\"GCAL\" name=\"GCALFRM\" src=\"https://Calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23990000&amp;src=carclubofaustraliajensen%40gmail.com&amp;color=%239e0606&amp;ctz=Australia%2FMelbourne\" style=\"border-width:0\" width=\"1600\" height=\"1200\" frameborder=\"0\" scrolling=\"YES\">\n    </iframe>",
+          "_customHTML": "<!-- Type valid HTML here -->\n<iframe id=\"GCAL\" name=\"GCALFRM\" src=\"https://Calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23990000&amp;src=carclubofaustraliajensen%40gmail.com&amp;color=%239e0606&amp;ctz=Australia%2FMelbourne\" style=\"border-width:0\" width=\"1600\" height=\"1200\" frameborder=\"0\" scrolling=\"YES\">\n    </iframe>",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
