@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jensen Car Club of Australia",
-    "currentPage": "index.html",
+    "currentPage": "Jensen-Club-Membership.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -11,7 +11,7 @@
         "successColor": "#5a142a",
         "infoColor": "#400d2a",
         "warningColor": "#140a25",
-        "dangerColor": "#db2b30",
+        "dangerColor": "#84090c",
         "mainFont": "Poppins",
         "display1Font": "Poiret One",
         "display1Size": 4.5,
@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#5a142a",
         "#0f7821",
         "#355146",
         "#450507",
         "#1b0203",
         "#84090c",
-        "#0d8859",
-        "#8f1dc2"
+        "#0d8859"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poiret+One:400"
       }
     ],
-    "uniqCompNum": 145,
+    "uniqCompNum": 146,
     "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -1756,7 +1756,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-3i",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -3717,7 +3717,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top=\"\" global=\"\" once=\"menu\" not-draggable=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Size\" inline=\"\" name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon=\"\" class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=1.0&amp;item_name=Custom+Item&amp;currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon=\"\" class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon=\"\" class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon=\"\" class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon=\"\" class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon=\"\" class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-40",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -3937,11 +3937,13 @@
             }
           },
           "_name": "form4",
-          "_customHTML": "<section class=\"mbr-section form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\">\n\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJsdNBu0lC1moR8Ns6ZZ-NMU8\" value=\"75 Burwood Road Hawthorn, VIC 3122\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Subheading\" name=\"showSubheading\">\n        <input type=\"checkbox\" title=\"Show Contacts\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/169-jh2-rhd-xea101m-4-800x531.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\">Contact us or call in to our regular meeting</h2>\n                <div>\n                    <div class=\"icon-block pb-3\">\n                        <span mbr-if=\"showIcons\" class=\"icon-block__icon\">\n                            <span mbr-icon class=\"mbr-iconfont mbri-like\"></span>\n                        </span>\n                        <h4 mbr-if=\"showSubheading\" class=\"icon-block__title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\"><br><br></h4>\n                    </div>\n                    <div class=\"icon-contacts pb-3\" mbr-if=\"showContacts\">\n                        <h5 mbr-if=\"showSubtitle\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            Ready for offers and cooperation\n                        </h5>\n                        <p mbr-if=\"showText\" class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Phone: &nbsp;Do you want to have a contact phone number?<br>email: Or an email address?<br>\n                        </p>\n                    </div>\n                </div>\n                <div mbr-form mbr-if=\"showForm\">\n                    <div data-form-alert hidden>Thank you wsell contact you soon</div>\n                    <form class=\"block mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row\">\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"name\">\n                                <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Your Name\" required>\n                            </div>\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"phone\">\n                                <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"email\">\n                                <input type=\"text\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"message\">\n                                <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"What is your interest in the Jensen Car Club of Australia\" style=\"resize:none\"></textarea>\n                            </div>\n                            <div class=\"input-group-btn col-md-12\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" style=\"margin-top: 10px;\"><a href type=\"submit\" class=\"btn btn-form btn-secondary-outline\" data-app-placeholder=\"Type Text\">SEND MESSAGE</a></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\">\n\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJsdNBu0lC1moR8Ns6ZZ-NMU8\" value=\"75 Burwood Road Hawthorn, VIC 3122\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Subheading\" name=\"showSubheading\">\n        <input type=\"checkbox\" title=\"Show Contacts\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/169-jh2-rhd-xea101m-4-800x531.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\">Contact us or call in to our regular meeting</h2>\n                <div>\n                    <div class=\"icon-block pb-3\">\n                        <span mbr-if=\"showIcons\" class=\"icon-block__icon\">\n                            <span mbr-icon class=\"mbr-iconfont mbri-like\"></span>\n                        </span>\n                        <h4 mbr-if=\"showSubheading\" class=\"icon-block__title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\"><br><br></h4>\n                    </div>\n                    <div class=\"icon-contacts pb-3\" mbr-if=\"showContacts\">\n                        <h5 mbr-if=\"showSubtitle\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            Ready for offers and cooperation\n                        </h5>\n                        <p mbr-if=\"showText\" class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Phone: &nbsp;Do you want to have a contact phone number?<br>email: Or an email address?<br>\n                        </p>\n                    </div>\n                </div>\n                <div mbr-form mbr-if=\"showForm\">\n                    <div data-form-alert hidden>Thank you wsell contact you soon</div>\n                    <form class=\"block mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"JCCA Contact Form\">\n                        <div class=\"row\">\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"name\">\n                                <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Your Name\" required>\n                            </div>\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"phone\">\n                                <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"email\">\n                                <input type=\"text\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"message\">\n                                <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"What is your interest in the Jensen Car Club of Australia\" style=\"resize:none\"></textarea>\n                            </div>\n                            <div class=\"input-group-btn col-md-12\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" style=\"margin-top: 10px;\"><a href type=\"submit\" class=\"btn btn-form btn-secondary-outline\" data-app-placeholder=\"Type Text\">SEND MESSAGE</a></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "form4-2t",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rjqIm4nhEJ",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3951,800 +3953,80 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-shop": {
-              "display": "table",
-              "width": "100%"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-shop .row": {
-              "margin": "0"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".mbr-shop .btn-sm": {
-              "margin": "0.2rem 0.2rem"
+            ".container-fluid": {
+              "padding": "0 3rem"
             },
-            ".mbr-shop .shoppingcart-icons": {
-              "z-index": "105 !important"
+            ".underline": {
+              ".line": {
+                "width": "5rem",
+                "height": "3px",
+                "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)",
+                "display": "inline-block"
+              }
             },
-            ".mbr-shop .shop-title": {
-              "margin-bottom": "18px",
-              "padding-left": "25px",
-              "padding-right": "25px",
-              "display": "inline-block",
-              "max-width": "80%"
-            },
-            ".mbr-shop .sidebar-title": {
-              "line-height": "25px"
-            },
-            ".mbr-shop .shopItemsModal_wraper": {
-              "position": "fixed",
-              "display": "none",
-              "-webkit-align-items": "center",
-              "align-items": "center",
+            ".card": {
+              "display": "flex",
+              "position": "relative",
               "-webkit-justify-content": "center",
               "justify-content": "center",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "rgba(87, 87, 87, 0.4)",
-              "top": "0",
-              "cursor": "pointer",
-              "z-index": "1040"
-            },
-            ".mbr-shop .card-description": {
-              "cursor": "text",
-              "display": "none"
-            },
-            ".mbr-shop .image-modal": {
-              "padding-left": "0",
-              "padding-right": "0",
-              "text-align": "center"
-            },
-            ".mbr-shop .image-modal img": {
-              "max-width": "100%",
-              "max-height": "75vh"
-            },
-            ".mbr-shop .hide-modal": {
-              "display": "none"
-            },
-            ".mbr-shop .shopItemsModal": {
-              "cursor": "default",
-              "padding": "50px",
-              "width": "1000px",
-              "max-width": "100%",
-              "background-color": "#ffffff",
-              "z-index": "2000",
-              "overflow": "auto",
-              "position": "fixed"
-            },
-            ".mbr-shop .shopItemsModal p": {
-              "margin-bottom": "0"
-            },
-            ".mbr-shop .shopItemsModal ul": {
-              "margin-bottom": "0"
-            },
-            ".mbr-shop .shopItemsModal .card-description": {
-              "display": "block",
-              "width": "100%"
-            },
-            ".mbr-shop .shopItemsModal .close-modal": {
-              "content": "''",
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "50px",
-              "height": "4px",
-              "background-color": "red",
-              "-webkit-transform": "rotate(45deg)",
-              "transform": "rotate(45deg)"
-            },
-            ".mbr-shop .shopItemsModal .close-modal:before": {
-              "content": "''",
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "50px",
-              "height": "4px",
-              "background-color": "red",
-              "-webkit-transform": "rotate(-45deg)",
-              "transform": "rotate(-45deg)"
-            },
-            ".mbr-shop .test-overlay": {
-              "position": "absolute",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "rgba(0, 0, 0, 0.5)"
-            },
-            ".mbr-shop .filter-by-pu, .mbr-shop .filter-by-pd, .mbr-shop .filter-by-d": {
-              "display": "inline-block",
-              "margin-right": "3px"
-            },
-            ".mbr-shop .sort-buttons": {
-              "padding-bottom": "1rem",
-              "margin-right": "13px",
-              "text-align": "right"
-            },
-            ".mbr-shop .galleryItem:before": {
-              "width": "0 !important",
-              "height": "0 !important"
-            },
-            ".mbr-shop .modal-dialog": {
-              "max-width": "700px"
-            },
-            ".mbr-shop .mbr-gallery-item": {
-              "left": "0 !important",
-              "top": "0 !important",
-              "vertical-align": "top",
-              "position": "relative !important",
-              "-webkit-transform": "none !important",
-              "transform": "none !important",
-              "padding": "10px"
-            },
-            ".mbr-shop .galleryItem h4, .mbr-shop .carousel-item h4": {
-              "font-style": "normal",
-              "line-height": "1",
-              "text-transform": "none",
-              "letter-spacing": "-1px",
-              "word-spacing": "0",
-              "margin-bottom": "0.3rem",
-              "padding-top": "15px",
-              "transition": "color 0.5s"
-            },
-            ".mbr-shop .galleryItem h5, .mbr-shop .carousel-item h5": {
-              "font-style": "italic",
-              "font-weight": "400",
-              "line-height": "22.36px",
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "word-spacing": "0"
-            },
-            ".mbr-shop .galleryItem p, .mbr-shop .carousel-item p": {
-              "font-style": "italic",
-              "font-weight": "400",
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "word-spacing": "0px",
-              "text-align": "center",
-              "display": "inline"
-            },
-            ".mbr-shop .item-button": {
-              "text-align": "center"
-            },
-            ".mbr-shop .modalButton": {
-              "display": "inline-block",
-              "float": "right",
-              "margin-right": "10px"
-            },
-            ".mbr-shop .modalButton.btn-success": {
-              "right": "15%"
-            },
-            ".mbr-shop .sidebar": {
-              "margin-top": "30px",
-              "position": "relative"
-            },
-            ".mbr-shop .sidebar-block": {
-              "position": "relative"
-            },
-            ".mbr-shop .sidebar-background:after": {
-              "content": "''",
-              "position": "absolute",
-              "width": "100%",
-              "height": "102%",
-              "background-color": "rgba(0, 0, 0, 0.05)",
-              "top": "-20px",
-              "right": "3px"
-            },
-            ".mbr-shop .bestsellers": {
-              "padding-left": "0",
-              "padding-right": "0",
-              "position": "relative",
-              "margin-bottom": "20px"
-            },
-            ".mbr-shop .bestsellers .onsale": {
-              "top": "-15px"
-            },
-            ".mbr-shop .bestsellers .price-block": {
-              "padding-top": "5px",
-              "text-align": "left",
-              "line-height": "1"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item": {
-              "width": "100%"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item img": {
-              "width": "80px",
-              "float": "left",
-              "margin-right": "20px"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item h4": {
-              "text-align": "left",
-              "padding-bottom": "5px",
-              "line-height": "1",
-              "border-bottom": "1px dotted #d6d6d6"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item h5": {
-              "text-align": "left",
-              "display": "none"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item p": {
-              "text-align": "left"
-            },
-            ".mbr-shop .bestsellers .btn": {
-              "display": "none"
-            },
-            ".mbr-shop .bestsellers-img": {
-              "display": "inline-block",
-              "width": "80px",
-              "height": "80px",
-              "overflow": "hidden"
-            },
-            ".mbr-shop .bestsellers-title": {
-              "display": "inline-block"
-            },
-            ".mbr-shop .onsale": {
-              "position": "absolute",
-              "top": "5px",
-              "right": "5px",
-              "display": "block",
-              "transition": "color .3s ease",
-              "text-align": "center",
-              "z-index": "95",
-              "height": "30px",
-              "line-height": "30px",
-              "padding": "0 15px",
-              "background": "@saleBg",
-              "border-radius": "30px",
-              "font-weight": "400",
-              "font-style": "normal",
-              "text-transform": "none",
-              "letter-spacing": "0px"
-            },
-            ".mbr-shop .mbr-gallery-item__hided": {
-              "display": "none"
-            },
-            ".mbr-shop .mbr-gallery-item__hided h4, .mbr-shop .mbr-gallery-item__hided h5, .mbr-shop .mbr-gallery-item__hided p": {
-              "display": "none"
-            },
-            ".mbr-shop .mbr-gallery-item__hided .btn": {
-              "display": "none"
-            },
-            ".mbr-shop .galleryItem .price-block": {
-              "display": "block",
-              "margin-bottom": "8px"
-            },
-            ".mbr-shop .galleryItem .price-block span": {
-              "font-style": "normal",
-              "font-weight": "700",
-              "line-height": "1",
-              "text-transform": "none",
-              "letter-spacing": "-1px",
-              "word-spacing": "0"
-            },
-            ".mbr-shop .mbr-gallery-filter": {
-              "padding-left": "0",
-              "text-align": "left",
-              "padding-top": "0"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li": {
-              "position": "relative",
-              "padding": "7px 0 7px 25px",
-              "border-bottom": "1px dotted #d6d6d6",
-              "margin": "0",
-              "font-style": "normal",
-              "font-weight": "400",
-              "line-height": "24.99px",
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "word-spacing": "0",
-              "direction": "ltr",
-              "border": "none",
-              "display": "list-item",
-              "text-align": "left",
-              "transition": "all 0.3s ease-out",
-              "cursor": "pointer"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li.active": {
-              "background-color": "transparent",
-              "font-weight": "bold"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li:before": {
-              "content": "\"\"",
-              "position": "absolute",
-              "left": "0",
-              "top": "50%",
-              "margin-top": "-2.5px",
-              "background": "rgba(0, 0, 0, 0.3)",
-              "width": "5px",
-              "height": "5px"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li:hover": {
-              "padding-left": "30px",
-              "background-color": "transparent"
-            },
-            ".mbr-shop .range-slider": {
-              "padding-bottom": "25px"
-            },
-            ".mbr-shop .filter-cost": {
-              "display": "block",
-              "vertical-align": "middle",
-              "max-width": "250px",
-              "text-align": "left",
-              "position": "relative",
-              "margin-bottom": "30px"
-            },
-            ".mbr-shop .filter-cost p": {
-              "margin-bottom": "10px",
-              "font-size": "16px",
-              "line-height": "21px",
-              "color": "#666666",
-              "font-weight": "bold"
-            },
-            ".mbr-shop .price-controls": {
-              "position": "relative",
-              "height": "36px",
-              "margin-bottom": "30px",
-              "border": "2px solid #666666",
-              "border-radius": "2px",
-              "font-size": "0"
-            },
-            ".mbr-shop .price-controls label": {
-              "display": "inline-block",
-              "width": "50%",
-              "font-size": "14px",
-              "line-height": "32px",
-              "color": "#666666",
-              "font-weight": "normal",
-              "cursor": "pointer",
-              "margin-bottom": "0"
-            },
-            ".mbr-shop .price-controls label.min-price": {
-              "border-right": "2px solid #666666"
-            },
-            ".mbr-shop .price-controls input": {
-              "width": "100%",
-              "background-color": "#ffffff",
-              "border": "none",
-              "line-height": "31px",
-              "height": "31px",
-              "text-align": "center",
-              "-webkit-user-select": "none",
-              "-ms-user-select": "none",
-              "user-select": "none"
-            },
-            ".mbr-shop .range-controls": {
-              "position": "relative"
-            },
-            ".mbr-shop .range-controls .scale": {
-              "width": "100%",
-              "height": "2px",
-              "background-color": "rgba(190, 190, 190, 0.3)"
-            },
-            ".mbr-shop .range-controls .bar": {
-              "margin-left": "0",
-              "width": "100%",
-              "height": "2px",
-              "background-color": "#666666"
-            },
-            ".mbr-shop .toggle": {
-              "position": "absolute",
-              "top": "-9px",
-              "width": "4px",
-              "height": "4px",
-              "border": "8px solid #666666",
-              "border-radius": "100%",
-              "box-sizing": "content-box",
-              "background-color": "#ababab",
-              "cursor": "pointer"
-            },
-            ".mbr-shop .toggle:hover, .mbr-shop .toggle:active": {
-              "background-color": "#c0a375"
-            },
-            ".mbr-shop .min-toggle": {
-              "left": "0"
-            },
-            ".mbr-shop .max-toggle": {
-              "right": "0"
-            },
-            ".mbr-shop .hided-by-price": {
-              "display": "none"
-            },
-            ".mbr-shop .text-modal": {
-              "padding-right": "30px",
-              "padding-left": "30px"
-            },
-            ".mbr-shop .text-modal .item-button": {
-              "text-align": "left !important"
-            },
-            ".mbr-shop .text-modal .price-block": {
-              "line-height": "1",
-              "border-bottom": "1px dotted #d6d6d6"
-            },
-            ".mbr-shop .text-modal .price-block p": {
-              "display": "inline"
-            },
-            ".mbr-shop .text-modal .price-block span": {
-              "display": "inline",
-              "font-weight": "700",
-              "padding": "10px 0 20px 0"
-            },
-            ".mbr-shop .text-modal .card-description": {
-              "padding-top": "20px",
-              "display": "block",
-              "font-size": "16px",
-              "line-height": "24px",
-              "margin-bottom": "50px"
-            },
-            ".mbr-shop .modal-control-panel": {
-              "padding-right": "0"
-            },
-            ".mbr-shop .modal-cb": {
-              "display": "inline-block",
-              "float": "right",
-              "margin-right": "10px",
-              "margin-left": "10px"
-            },
-            ".mbr-shop .shopItemsModalBg": {
-              "width": "100%",
-              "height": "100%"
-            },
-            ".mbr-shop .close-modal-wrapper": {
-              "cursor": "pointer",
-              "width": "40px",
-              "height": "40px",
-              "position": "absolute",
-              "top": "0",
-              "right": "0"
-            },
-            ".mbr-shop .close-modal-wrapper:after": {
-              "content": "\"\"",
-              "position": "absolute",
-              "width": "40px",
-              "height": "3px",
-              "background-color": "#cccccc",
-              "top": "50%",
-              "right": "5%",
-              "-webkit-transform": "rotate(-45deg)",
-              "transform": "rotate(-45deg)"
-            },
-            ".mbr-shop .close-modal-wrapper:before": {
-              "content": "\"\"",
-              "position": "absolute",
-              "width": "3px",
-              "height": "40px",
-              "background-color": "#cccccc",
-              "right": "50%",
-              "top": "5%",
-              "-webkit-transform": "rotate(-45deg)",
-              "transform": "rotate(-45deg)"
-            },
-            ".mbr-shop .closeModal": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0"
-            },
-            ".mbr-shop .galleryItem .sidebar_wraper": {
-              "text-align": "center"
-            },
-            ".mbr-shop .shopItemsModal .sidebar_wraper": {
-              "text-align": "left"
-            },
-            ".mbr-shop .shopItemsModal .onsale": {
-              "top": "10px",
-              "right": "10px",
-              "border": "1px solid #e7e7e7"
-            },
-            ".mbr-shop .shop-items .onsale, .mbr-shop .bestseller-block .onsale": {
-              "font-size": "15px !important"
-            },
-            ".mbr-shop .item_overlay": {
-              "position": "absolute",
-              "width": "100%",
-              "height": "100%",
-              "z-index": "99",
-              "background": "transparent"
-            },
-            ".mbr-shop .style_overlay": {
-              "position": "absolute",
-              "width": "100%",
-              "height": "100%"
-            },
-            ".mbr-shop .price-range": {
-              "display": "inline-block"
-            },
-            ".mbr-shop .price-range-reset": {
-              "display": "inline-block"
-            },
-            ".mbr-shop .bestsellers .item-button": {
-              "display": "none !important"
-            },
-            ".mbr-shop .range-slider h4": {
-              "margin-bottom": "15px"
-            },
-            ".mbr-shop .mbr-gallery-filter ul": {
-              "padding-left": "0px",
-              "display": "inline-block",
-              "list-style": "none",
-              "margin-bottom": "0px"
-            },
-            ".mbr-shop .categories:after": {
-              "content": "\"\"",
-              "display": "table",
-              "clear": "both"
-            },
-            "@media (min-width: 767px) and (max-width: 1100px)": {
-              ".mbr-shop .col-md-9": {
-                "width": "100%"
+              "&:hover img": {
+                "-webkit-transform": "scale3d(1.05, 1.05, 1.05)",
+                "transform": "scale3d(1.05, 1.05, 1.05)",
+                "transition": "all .5s"
               },
-              ".mbr-shop .col-md-3": {
-                "width": "100%"
-              },
-              ".mbr-shop .sidebar-background:after": {
-                "top": "0"
-              },
-              ".mbr-shop .bestseller-block": {
-                "width": "100%",
-                "margin": "0",
-                "display": "inline-block",
-                "float": "left",
-                "padding-top": "15px"
-              },
-              ".mbr-shop .range-slider": {
-                "width": "49%",
-                "margin": "0",
-                "display": "inline-block",
-                "float": "right",
-                "padding-top": "15px"
-              },
-              ".mbr-shop .bestsellers": {
-                "width": "100%"
-              },
-              ".mbr-shop .bestsellers .mbr-gallery-item": {
-                "width": "49%",
-                "display": "inline-block"
-              },
-              ".mbr-shop .sidebar-categories": {
-                "width": "49%",
-                "margin": "0",
-                "display": "inline-block",
-                "padding-top": "15px"
-              },
-              ".mbr-shop .price-range": {
-                "max-width": "250px",
-                "text-align": "center"
-              },
-              ".clearfix:after": {
-                "content": "\"\"",
-                "display": "table",
-                "clear": "both"
-              }
-            },
-            "@media (max-width: 991px) and (min-width: 768px)": {
-              ".mbr-shop .mbr-gallery-item": {
-                "width": "33%"
-              }
-            },
-            "@media (max-width: 500px)": {
-              ".mbr-shop .shopItemsModal": {
-                "padding": "50px 10px 10px 10px"
-              },
-              ".mbr-shop .shop-title": {
-                "max-width": "100%"
-              },
-              ".mbr-shop .mbr-gallery-item": {
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 1200px)": {
-              ".mbr-shop .sort-buttons": {
-                "text-align": "center",
-                "margin-right": "0 !important"
+              ".card-wrapper": {
+                "height": "1%",
+                ".card-img": {
+                  "position": "relative",
+                  "overflow": "hidden",
+                  "margin-bottom": "1rem",
+                  "border-radius": "10px",
+                  "z-index": "1",
+                  "img": {
+                    "transition": "all .5s"
+                  },
+                  ".img-text": {
+                    "position": "absolute",
+                    "padding": ".6rem",
+                    "top": "0",
+                    "left": "0",
+                    "z-index": "1",
+                    "border-top-left-radius": "10px",
+                    "border-bottom-right-radius": "10px",
+                    "background-color": "@dateBg",
+                    "span": {
+                      "display": "block"
+                    }
+                  }
+                },
+                ".card-box .mbr-section-btn a": {
+                  "margin-left": "4px"
+                }
               }
             },
             "@media (max-width: 767px)": {
-              ".mbr-shop .image-modal": {
-                "text-align": "center"
-              },
-              ".mbr-shop .image-modal img": {
-                "max-height": "50vh",
-                "width": "auto",
-                "max-width": "100%"
-              },
-              ".mbr-shop .shopItemsModal": {
-                "top": "15%",
-                "bottom": "70px",
-                "left": "10%",
-                "width": "80%"
-              },
-              ".mbr-shop .shopItemsModal .image-modal": {
-                "padding-right": "0"
-              },
-              ".mbr-shop .sidebar-background:after": {
-                "top": "-1%"
+              ".container-fluid": {
+                "padding": "0 1rem"
               }
             },
-            "@media (max-width: 1100px)": {
-              ".mbr-shop .shopItemsModal": {
-                "max-height": "85vh",
-                "width": "90%",
-                "left": "5%",
-                "margin-left": "0"
-              },
-              ".mbr-shop .sort-buttons": {
-                "margin-right": "21px"
-              },
-              ".mbr-shop .sidebar-background:after": {
-                "right": "0",
-                "width": "100%"
-              },
-              ".mbr-shop .text-modal .card-description": {
-                "width": "100%"
-              },
-              ".mbr-shop .text-modal .price-block": {
-                "width": "100%"
-              },
-              ".mbr-shop .text-modal h4": {
-                "padding-top": "30px"
-              }
-            },
-            ".shopItemsModal_wraper .mbr-section-btn": {
-              "display": "block !important"
-            },
-            ".range-slider .mbr-section-btn": {
-              "margin": "0"
-            },
-            ".oldprice": {
-              "color": "#767676",
-              "padding-left": ".8rem",
-              "text-decoration": "line-through"
-            },
-            "& when (@shop__showPriceRange)": {
-              ".range-controls": {
-                "display": "block !important"
-              }
-            },
-            "& when (@shop__showSortButtons)": {
-              ".sort-buttons": {
-                "display": "block !important"
-              }
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".shopItemsModal.row": {
-                "position": "absolute !important",
-                "top": "calc(50% ~'-' 300px) !important",
-                "left": "calc(50% ~'-' 500px) !important"
-              }
+            ".img-text": {
+              "color": "#ffffff"
             }
           },
-          "_name": "shop1",
-          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"shop\" title=\"Shop\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" sorting show-sidebar card-buttons></div>\n    </div>\n\n</section>",
-          "_cid": "rjH0ZjjmYQ",
-          "_anchor": "shop1-3w",
-          "_protectedParams": [
-            "shop__showSidebar",
-            "shop__showCardButtons",
-            "shop__showSortButtons",
-            "shop__showBestSellers",
-            "shop__showPriceRange",
-            "shop__showTags",
-            "text_all",
-            "sidebar1",
-            "sidebar2",
-            "sidebar3",
-            "shop__filtersTextStyle",
-            "buttons_default_class",
-            "filter_by_d",
-            "filter_by_pu",
-            "filter_by_pd",
-            "price_range",
-            "price_range_reset",
-            "shop"
-          ],
+          "_name": "features12",
+          "_customHTML": "<section class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Card Captions\" name=\"showDate\" checked>\n        <input type=\"color\" title=\"Card Caption Background\" name=\"dateBg\" value=\"#84090c\" condition=\"showDate\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <h2 class=\"mbr-section-title align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">\n            EXPLORE OUR PRODUCTS\n        </h2>\n        <div class=\"underline align-left pb-3\" mbr-if=\"showUnderline && showTitle\">\n            <div class=\"line\"></div>\n        </div>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light pb-5\" mbr-class=\"{'pt-3':!showUnderline}\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Click on bottom left corner of card image to change the image. In browser you will see buttons and overlay when hover on cards.\n        </h3>\n        <div class=\"row justify-content-center align-items-start\" mbr-cards=\"bootstrap\" mbr-class=\"{'pt-5':!showSubtitle}\">\n            <div class=\"card px-3 py-4 col-12 col-md-6 col-lg-4\">\n                <div class=\"card-wrapper flip-card\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-218x122-218x122.png\" alt=\"Mobirise\" title>\n                        <div mbr-text class=\"img-text mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".img-text\" mbr-if=\"showDate\">\n                             Membership Renewal</div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showButtons\">\n                        <p class=\"mbr-card-text mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-card-text, .mbr-section-btn\">After buying now, fill out the form below.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=80&item_name=Membership+Renewal&currency_code=AUD\" class=\"btn btn-warning-outline\" data-app-placeholder=\"Type Text\">BUY NOW</a></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card px-3 py-4 col-12 col-md-6 col-lg-4\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper flip-card\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" title>\n                        <div mbr-text class=\"img-text mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".img-text\" mbr-if=\"showDate\">\n                             Renewal of Membership</div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showButtons\">\n                        <p class=\"mbr-card-text mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-card-text, .mbr-section-btn\">\n                            1 Year Subscription to Jensen Car Club of Australia</p>\n                        <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=80&item_name=Membership+renewal&currency_code=AUD\" class=\"btn btn-black-outline\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                                Buy Now</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card px-3 py-4 col-12 col-md-6 col-lg-4\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper flip-card\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n                        <div mbr-text class=\"img-text mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".img-text\" mbr-if=\"showDate\">\n                             Sweatshirts\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showButtons\">\n                        <p class=\"mbr-card-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-card-text, .mbr-section-btn\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                        </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a href=\"https://mobirise.com\" class=\"btn btn-secondary\">\n                                VIEW ALL\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card px-3 py-4 col-12 col-md-6 col-lg-4\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper flip-card\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n                        <div mbr-text class=\"img-text mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".img-text\" mbr-if=\"showDate\">\n                             Dresses\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showButtons\">\n                        <p class=\"mbr-card-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-card-text, .mbr-section-btn\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                        </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a href=\"https://mobirise.com\" class=\"btn btn-secondary\">\n                                VIEW ALL\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card px-3 py-4 col-12 col-md-6 col-lg-4\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper flip-card\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/05.jpg\" alt=\"Mobirise\">\n                        <div mbr-text class=\"img-text mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".img-text\" mbr-if=\"showDate\">\n                             Shoes\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showButtons\">\n                        <p class=\"mbr-card-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-card-text, .mbr-section-btn\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                        </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a href=\"https://mobirise.com\" class=\"btn btn-secondary\">\n                                VIEW ALL\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card px-3 py-4 col-12 col-md-6 col-lg-4\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper flip-card\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/06.jpg\" alt=\"Mobirise\">\n                        <div mbr-text class=\"img-text mbr-text mbr-fonts-style align-center mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".img-text\" mbr-if=\"showDate\">\n                             Accessories\n                        </div>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showButtons\">\n                        <p class=\"mbr-card-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-card-text, .mbr-section-btn\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                        </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a href=\"https://mobirise.com\" class=\"btn btn-secondary\">\n                                VIEW ALL\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rjItPTUeYx",
+          "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {
-            "shop__showSidebar": false,
-            "shop__showCardButtons": true,
-            "shop__showSortButtons": true,
-            "shop__showBestSellers": true,
-            "shop__showPriceRange": true,
-            "shop__showTags": true,
-            "text_all": "All",
-            "sidebar1": "Best Sellers",
-            "sidebar2": "Price Range",
-            "sidebar3": "Filter",
-            "shop__filtersTextStyle": "display-7",
-            "filter_by_d": "<a class=\"btn btn-sm btn-primary disableSortButton\" href=\"\">Default sorting</a>",
-            "filter_by_pu": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Price: low to high</a>",
-            "filter_by_pd": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Price: high to low</a>",
-            "price_range": "<a class=\"btn btn-sm btn-primary\" data-app-btn=\"true\" href=\"\">Filter</a>",
-            "price_range_reset": "<a class=\"btn btn-sm btn-secondary\" data-app-btn=\"true\" href=\"\">Show all</a>",
-            "shop": [
-              {
-                "tags": "Awesome",
-                "bestSeller": true,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Membership Renewal",
-                "itemDescription": "<p>1 Year subscription to the Jensen Car Club of Australia.</p><p>Inclusive of subscription to the Interceptor magazine</p>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$80.00",
-                "oldPriceValue": "$64",
-                "sale": "-50%",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=80&item_name=1+Year+Subscription&currency_code=AUD\" data-app-placeholder=\"Type Text\" class=\"btn btn-primary display-7 note-editable\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/logo-218x122.png",
-                "thumb": "@PROJECT_PATH@/assets/images/logo-218x122-218x122.png",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-7",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "tags": "Wonderful",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "JCCA Polo Shirts&nbsp;",
-                "itemDescription": "Medium",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$30",
-                "oldPriceValue": "$68",
-                "sale": "-50%",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=30&item_name=Medium+Polo+Shirt&currency_code=AUD\" data-app-placeholder=\"Type Text\" class=\"btn btn-primary display-7 note-air-editor note-editable\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop1.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-7",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "bestSeller": false,
-                "onSale": true,
-                "oldPrice": true,
-                "itemTitle": "Key Fobs",
-                "itemDescription": "Key Fob Must have for every Jensen!",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$10.",
-                "oldPriceValue": "",
-                "sale": "Must have",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=10&item_name=Key+Fob&currency_code=AUD\" data-app-placeholder=\"Type Text\" class=\"btn btn-primary display-7\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop2.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop2.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-7",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "JCCA Cap",
-                "itemDescription": "One Size fits most<br><br><ul><li>Lightweight textured fabric</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$10.",
-                "oldPriceValue": "$64",
-                "sale": "-50%",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=10&item_name=JCCA+Cap&currency_code=AUD\" data-app-placeholder=\"Type Text\" class=\"btn btn-primary display-7 note-editable\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop3.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-7",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ]
-          }
+          "_params": {},
+          "_anchor": "features12-41"
         },
         {
           "_styles": {
@@ -4809,7 +4091,7 @@
             }
           },
           "_name": "form4",
-          "_customHTML": "<section group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Input Fields Color\" name=\"fieldsColor\" value=\"#efefef\">\n        <!-- <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\"> -->\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"form-1 col-md-10 col-lg-8\">\n                <h1 class=\"mbr-fonts-style mbr-section-title align-center\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    Membership Renewal</h1>\n                <div data-form-alert hidden>Thanks for filling out the form!</div>\n                <form class=\"mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"JCCA Membership Renewal\">\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"firstname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-fullname\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Name of Voting Member</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"fullname\" data-form-field=\"Full Name\" required>\n                        </div>\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"lastname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Address\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Postal Address</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Address\" data-form-field=\"Address\" required>\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"email\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">E-mail</label>\n                            <input type=\"email\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" data-form-field=\"Email\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"phone\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-phone\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Phone</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" data-form-field=\"Phone\">\n                        </div>\n\n                        \n         </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"model\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Model</label>\n                            <input type=\"model\" mbr-theme-style=\"display-7\" class=\"field\" name=\"model\" data-form-field=\"Model\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"vin\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-phone\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">VIN Number</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" data-form-field=\"Phone\">\n                        </div>   \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                 </div>\n  \n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 form-group\" data-for=\"Other Family Members:\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-family\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Other Family Members:</label>\n                            <textarea type=\"text\" mbr-theme-style=\"display-3\" class=\"form-control\" name=\"message\" data-form-field=\"family\"></textarea>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"Registration\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Registration\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Registration</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Model\" data-form-field=\"Model\">\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-10 col-lg-8 btn-row\">\n                            <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com.mga.net.au\" type=\"submit\" class=\"btn btn-form btn-primary\" data-app-placeholder=\"Type Text\">SEND</a></span>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_customHTML": "<section group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Input Fields Color\" name=\"fieldsColor\" value=\"#efefef\">\n        <!-- <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\"> -->\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"form-1 col-md-10 col-lg-8\">\n                <h1 class=\"mbr-fonts-style mbr-section-title align-center\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    Membership Renewal</h1>\n                <div data-form-alert hidden>Thanks for filling out the form!</div>\n                <form class=\"mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"JCCA Membership Renewal\">\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"firstname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-fullname\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Name of Voting Member</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"fullname\" data-form-field=\"Full Name\" required>\n                        </div>\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"lastname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Address\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Postal Address</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Address\" data-form-field=\"Address\" required>\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"email\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">E-mail</label>\n                            <input type=\"email\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" data-form-field=\"Email\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"phone\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-phone\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Phone</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" data-form-field=\"Phone\">\n                        </div>\n\n                        \n         </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"model\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Model</label>\n                            <input type=\"model\" mbr-theme-style=\"display-7\" class=\"field\" name=\"model\" data-form-field=\"Model\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"vin\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-phone\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">VIN Number</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" data-form-field=\"Phone\">\n                        </div>   \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                        \n                 </div>\n  \n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 form-group\" data-for=\"Other Family Members:\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-family\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Other Family Members:</label>\n                            <textarea type=\"text\" mbr-theme-style=\"display-3\" class=\"form-control\" name=\"message\" data-form-field=\"family\"></textarea>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"Registration1\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Registration\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Registration</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Model\" data-form-field=\"Model\">\n                        </div>\n\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-10 col-lg-8 btn-row\">\n                            <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com.mga.net.au\" type=\"submit\" class=\"btn btn-form btn-primary\" data-app-placeholder=\"Type Text\">SEND</a></span>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n   </div>\n</section>",
           "_anchor": "form4-3t",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -5288,7 +4570,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-3m",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -5817,7 +5099,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-3n",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -6410,7 +5692,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-3o",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -6972,7 +6254,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-3p",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
@@ -7550,7 +6832,7 @@
             }
           },
           "_name": "menu3",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#84090c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/logo-218x122.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">\n                    Jensen Car Club of Australia</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"Social-Media.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">SOCIAL MEDIA<br></a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Links.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        LINKS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Models.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        MODELS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Events+Calendar.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">EVENTS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Jensen-Club-Membership.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">MEMBERSHIP</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Club-Permits.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CLUB PERMITS</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content1-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        HOME</a>\n                </li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"page3.html\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-edit\"></span>\n              </a>\n              <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=1.0&item_name=Custom+Item&currency_code=AUD\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-shopping-cart\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"Contact-Us.html\" data-app-placeholder=\"Type Text\">\n                  CONTACT US\n                </a></div>\n      </div>\n    </nav>\n</section>",
           "_anchor": "menu3-3l",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
