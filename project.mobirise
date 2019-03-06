@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jensen Car Club of Australia",
-    "currentPage": "Victoria-Club-Permit.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poiret+One:400"
       }
     ],
-    "uniqCompNum": 213,
+    "uniqCompNum": 215,
     "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -9036,7 +9036,7 @@
             }
           },
           "_name": "shop4",
-          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Hover Color\" name=\"itemOverlay\" value=\"#ffffff\">\n        <input type=\"range\" inline title=\"Hover Opacity\" name=\"itemOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\">\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#fe525b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n        <input type=\"shop\" title=\"Shop\" name=\"shop\" buttons=\"secondary\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" card-buttons></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Hover Color\" name=\"itemOverlay\" value=\"#0f7821\">\n        <input type=\"range\" inline title=\"Hover Opacity\" name=\"itemOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\">\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#450507\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n        <input type=\"shop\" title=\"Shop\" name=\"shop\" buttons=\"secondary\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" card-buttons></div>\n    </div>\n\n</section>",
           "_cid": "rjV9cJ2pQQ",
           "_protectedParams": [
             "shop__showSidebar",
@@ -9080,6 +9080,29 @@
             "price_range_reset": "<a class=\"btn btn-sm btn-secondary\" data-app-btn=\"true\" href=\"\">Show all</a>",
             "shop": [
               {
+                "tags": "Awesome",
+                "bestSeller": false,
+                "onSale": false,
+                "oldPrice": false,
+                "itemTitle": ".",
+                "itemDescription": "<div><br></div><div><ul><li>Permit Scheme Officer – Glenn Fleet</li> <li>Phone: 0437 011 115</li> <li>Email: cpsvic@jcca.org.au</li></ul> <br>Contact Glen for more information<br><br><br></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": ".",
+                "oldPriceValue": "$52",
+                "sale": "-50%",
+                "button": "<a data-app-btn=\"true\" href=\"mailto:cpsvic@jcca.org.au\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-editable btn-danger\">email Glenn</a>",
+                "image": "@PROJECT_PATH@/assets/images/vic-permit-2.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/vic-permit-2.svg",
+                "customStyle5": "display-5",
+                "customStyle7": "display-7",
+                "customStyleSale": "display-7",
+                "customStyleTags": "display-4",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
                 "tags": "Animated",
                 "bestSeller": false,
                 "onSale": false,
@@ -9090,7 +9113,7 @@
                 "itemPrice": "Glenn Fleet",
                 "oldPriceValue": "$70",
                 "sale": "-50%",
-                "button": "<a data-app-btn=\"true\" href=\"mailto:cpsvic@jcca.org.au\" data-app-placeholder=\"Type Text\" class=\"btn btn-danger note-air-editor note-editable\">Contact</a>",
+                "button": "<a data-app-btn=\"true\" href=\"mailto:cpsvic@jcca.org.au\" data-app-placeholder=\"Type Text\" class=\"btn btn-danger note-editable display-7\">Contact</a>",
                 "image": "@PROJECT_PATH@/assets/images/blank-portrait-792x792.png",
                 "thumb": "@PROJECT_PATH@/assets/images/blank-portrait-792x792-792x792.png",
                 "customStyle5": "display-5",
@@ -9103,48 +9126,25 @@
                 "title": ""
               },
               {
-                "tags": "Awesome",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Red Cap",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$26",
-                "oldPriceValue": "$52",
-                "sale": "-50%",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\" class=\"btn btn-secondary display-7\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/blank-black-792x792.png",
-                "thumb": "@PROJECT_PATH@/assets/images/blank-black-792x792-792x792.png",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-7",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
                 "tags": "Animated",
                 "bestSeller": false,
                 "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Victorian Permit Scheme Officer",
-                "itemDescription": "<div><br></div><div><ul><li>Phone: 0437 011 115</li><li>Email: cpsvic@jcca.org.au</li></ul> <br>Contact for mailing address in Red Hill.<br><br><br></div>",
+                "oldPrice": true,
+                "itemTitle": "Vic Roads&nbsp;",
+                "itemDescription": "<div><br></div><div><ul><li>Phone: +61 3 83913216</li></ul> <br>Vicroads Club Permit Scheme<br><br><br></div>",
                 "itemPriceTitle": "From: ",
-                "itemPrice": "Glenn Fleet",
-                "oldPriceValue": "$70",
+                "itemPrice": ".",
+                "oldPriceValue": "",
                 "sale": "-50%",
-                "button": "<a data-app-btn=\"true\" href=\"mailto:cpsvic@jcca.org.au\" data-app-placeholder=\"Type Text\" class=\"btn btn-danger note-air-editor note-editable\">Contact</a>",
-                "image": "@PROJECT_PATH@/assets/images/blank-black-792x792.png",
-                "thumb": "@PROJECT_PATH@/assets/images/blank-black-792x792-792x792.png",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.vicroads.vic.gov.au/registration/limited-use-permits/club-permit-scheme\" data-app-placeholder=\"Type Text\" class=\"btn btn-danger display-7 note-air-editor note-editable\">Visit Vicroads</a>",
+                "image": "@PROJECT_PATH@/assets/images/vic-roads-card.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/vic-roads-card.svg",
                 "customStyle5": "display-5",
                 "customStyle7": "display-7",
                 "customStyleSale": "display-7",
                 "customStyleTags": "display-4",
                 "caption": "Type caption here",
-                "active": false,
+                "active": true,
                 "alt": "",
                 "title": ""
               },
@@ -9167,102 +9167,13 @@
                 "customStyleSale": "display-7",
                 "customStyleTags": "display-4",
                 "caption": "Type caption here",
-                "active": true,
+                "active": false,
                 "alt": "",
                 "title": ""
               }
             ]
           },
           "_anchor": "shop4-5w"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".container-fluid": {
-              "padding": "0 3rem"
-            },
-            ".mbr-list": {
-              "list-style": "none",
-              "padding": "0",
-              "margin": "0",
-              "li": {
-                "margin-bottom": "1rem"
-              }
-            },
-            ".mbr-section-title": {
-              "margin-bottom": "2rem"
-            },
-            ".social-media": {
-              "margin-top": "1.5rem",
-              "ul": {
-                "padding": "0",
-                "margin-bottom": "8px",
-                "li": {
-                  "margin-right": "1rem",
-                  "display": "inline-block"
-                }
-              }
-            },
-            ".mbr-text,.mbr-offer": {
-              "line-height": "1.5"
-            },
-            ".form-wrap": {
-              ".mbr-form": {
-                "display": "flex",
-                "-webkit-flex-direction": "column",
-                "flex-direction": "column",
-                "position": "relative",
-                "z-index": "0",
-                ".icon-btn": {
-                  "padding": "0.8rem 1rem",
-                  "position": "absolute",
-                  "left": "2px",
-                  "bottom": "-3px",
-                  "display": "block",
-                  "background": "transparent",
-                  "border": "none",
-                  "z-index": "1"
-                },
-                "input[type=\"email\"]": {
-                  "color": "#fff",
-                  "z-index": "0",
-                  "padding-left": "3rem",
-                  "height": "3rem",
-                  "background-color": "rgba(0, 0, 0, 0)"
-                }
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".container-fluid": {
-                "padding": "0 1rem"
-              },
-              ".mbr-section-title": {
-                "margin-bottom": "1rem"
-              },
-              ".mbr-list": {
-                "margin-bottom": "2rem",
-                "li": {
-                  "margin-bottom": ".5rem"
-                }
-              }
-            }
-          },
-          "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"imgWidth\" min=\"10\" max=\"100\" step=\"1\" value=\"32\">\n        <select title=\"Column Count\" name=\"showCard\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background9.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center align-center\">\n            <div class=\"col-lg-2 col-md-3 pb-3\">\n              <div class=\"logo-section align-left\">\n                  <a href=\"https://www.vicroads.vic.gov.au/registration/limited-use-permits/club-permit-scheme\">\n                    <img src=\"@PROJECT_PATH@/assets/images/vicroads-blk-364x81.png\" alt=\"Mobirise\" mbr-style=\"{'width':imgWidth + '%'}\" title>\n                  </a>\n              </div>\n              <div class=\"social-media align-left\">\n                 <ul>\n                   <li mbr-if=\"iconsCount > 0\">\n                       <a class=\"icon-transition\" href=\"https://www.facebook.com/vicroads/\" target=\"_blank\">\n                           <span mbr-icon class=\"mbr-iconfont mbr-white socicon-facebook socicon\"></span>\n                       </a>\n                   </li>\n                   <li mbr-if=\"iconsCount > 1\">\n                       <a class=\"icon-transition\" href=\"https://twitter.com/VicRoads\">\n                           <span mbr-icon class=\"mbr-iconfont mbr-white socicon-twitter socicon\"></span>\n                       </a>\n                   </li>\n                   <li mbr-if=\"iconsCount > 2\">\n                       <a class=\"icon-transition\" href=\"#\">\n                           <span mbr-icon class=\"mbr-iconfont mbr-white socicon-linkedin socicon\"></span>\n                       </a>\n                   </li>\n                   <li mbr-if=\"iconsCount > 3\">\n                       <a class=\"icon-transition\" href=\"#\">\n                           <span mbr-icon class=\"mbr-iconfont mbr-white socicon-youtube socicon\"></span>\n                       </a>\n                   </li>\n                   <li mbr-if=\"iconsCount > 4\">\n                       <a class=\"icon-transition\" href=\"#\">\n                           <span mbr-icon class=\"mbr-iconfont mbr-white socicon-rss socicon\"></span>\n                       </a>\n                   </li>\n                 </ul>\n              </div>\n              <h3 class=\"mbr-fonts-style mbr-text mbr-white align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">.</h3>\n            </div>\n            <div class=\"col-lg-2 col-md-3 pb-3\" mbr-if=\"showCard > 2\">\n              <h3 class=\"mbr-fonts-style mbr-section-title mbr-white align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\">\n                  MEN\n              </h3>\n              <ul mbr-text class=\"mbr-fonts-style mbr-list align-left\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-4\">\n                <li>\n                  <a class=\"text-success\" href=\"#\">All men</a>\n                </li>\n                <li>\n                  <a class=\"text-success\" href=\"#\">Shorts\n                  </a>\n                </li>\n                <li>\n                  <a class=\"text-success\" href=\"#\">Shirts</a>\n                </li>\n                <li>\n                  <a class=\"text-success\" href=\"#\">Boardshirts</a>\n                </li>\n                <li>\n                  <a class=\"text-success\" href=\"#\">Jackets</a>\n                </li>\n              </ul>\n            </div>\n            <div class=\"col-lg-2 col-md-3 pb-3\" mbr-if=\"showCard > 3\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-white align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\">\n                    WOMAN\n                </h3>\n                <ul mbr-text class=\"mbr-fonts-style mbr-list align-left\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-4\">\n                  <li>\n                    <a class=\"text-success\" href=\"#\">All men</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Shorts</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Shirts</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Boardshirts</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Jackets</a>\n                  </li>\n                </ul>\n            </div>\n            <div class=\"col-lg-2 col-md-3 pb-3\" mbr-if=\"showCard > 4\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-white align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\">ABOUT</h3>\n                <ul mbr-text class=\"mbr-fonts-style mbr-list align-left\" data-app-selector=\".mbr-list\" mbr-theme-style=\"display-4\">\n                  <li>\n                    <a class=\"text-success\" href=\"#\">All men</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Shorts</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Shirts</a>\n                  </li>\n                  <li>\n                    <a class=\"text-secondary\" href=\"#\">Boardshirts</a>\n                  </li>\n                  <li>\n                    <a class=\"text-success\" href=\"#\">Jackets</a>\n                  </li>\n                </ul>\n            </div>\n            <div class=\"col-lg-4 col-md-8 pb-3\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-white align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\">Victorian Permit Scheme Officer – Glenn Fleet<div><br></div><div>Phone: 0437 011 115</div></h3>\n                <h3 class=\"mbr-fonts-style mbr-offer mbr-white align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-offer\">Enter your email and we'll get in touch soon!</h3>\n                <div class=\"form-wrap\" mbr-form>\n                  <div data-form-alert hidden>Thanks, We'll get in touch soon</div>\n                  <form class=\"mbr-form\" action=\"cpsvic@jcca.org.au\" method=\"post\" name=\"My Mobirise Form\">\n                        <a data-app-btn=\"true\" class=\"icon-btn\" type=\"submit\">\n                           <span mbr-icon class=\"mbri-letter mbr-iconfont mbr-white\"></span>\n                        </a>\n                        <input type=\"email\" class=\"field\" name=\"email\" data-form-field=\"Email\" placeholder=\"Enter your email\" required>\n                  </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rjUMlU5csY",
-          "_anchor": "footer7-5p",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -9833,177 +9744,869 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            "background-color": "@bgColor",
+            ".mbr-shop": {
+              "display": "table",
+              "width": "100%"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".mbr-shop .row": {
+              "margin": "0"
             },
-            "& when (@grayFilter)": {
-              ".card-support li img": {
-                "-webkit-filter": "grayscale(100%)",
-                "-moz-filter": "grayscale(100%)",
-                "-ms-filter": "grayscale(100%)",
-                "-o-filter": "grayscale(100%)",
-                "filter": "gray",
-                "&:hover": {
-                  "-webkit-filter": "none",
-                  "-moz-filter": "none",
-                  "-ms-filter": "none",
-                  "-o-filter": "none",
-                  "filter": "none"
-                }
-              }
+            ".mbr-shop .btn-sm": {
+              "margin": "0.2rem 0.2rem"
             },
-            ".follow-heading": {
-              "padding-right": "4rem",
-              "color": "#ffffff"
+            ".mbr-shop .shoppingcart-icons": {
+              "z-index": "105 !important"
             },
-            ".input-form": {
-              "margin-top": "1.5rem",
-              "margin-bottom": "1rem"
+            ".mbr-shop .shop-title": {
+              "margin-bottom": "18px",
+              "padding-left": "25px",
+              "padding-right": "25px",
+              "display": "inline-block",
+              "max-width": "80%"
             },
-            ".social-media": {
-              "margin-top": "1.5rem",
+            ".mbr-shop .sidebar-title": {
+              "line-height": "25px"
+            },
+            ".mbr-shop .shopItemsModal_wraper": {
+              "position": "fixed",
+              "display": "none",
               "-webkit-align-items": "center",
               "align-items": "center",
-              "padding-right": "4rem",
-              "ul": {
-                "margin": "0",
-                "padding": "0",
-                "margin-bottom": "8px",
-                "li": {
-                  "margin-right": ".5rem",
-                  "display": "inline-block",
-                  "margin-bottom": ".5rem"
-                }
-              }
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "rgba(87, 87, 87, 0.4)",
+              "top": "0",
+              "cursor": "pointer",
+              "z-index": "1040"
             },
-            ".subtext-1,.subtext-2": {
-              "margin-bottom": ".6rem"
+            ".mbr-shop .card-description": {
+              "cursor": "text",
+              "display": "none"
             },
-            ".icon-transition span": {
-              "color": "rgb(255, 255, 255)",
-              "display": "flex",
-              "padding": "1rem",
-              "border-radius": "50%",
-              "background-color": "@circleColor",
-              "transition": "all 0.3s ease-out 0s",
-              "font-size": "14px"
+            ".mbr-shop .image-modal": {
+              "padding-left": "0",
+              "padding-right": "0",
+              "text-align": "center"
             },
-            ".icon-transition span:hover": {
-              "background-color": "@circleHover"
+            ".mbr-shop .image-modal img": {
+              "max-width": "100%",
+              "max-height": "75vh"
             },
-            ".card-support": {
-              "margin": "0",
-              "padding": "0",
-              "list-style": "none",
-              "li": {
-                "margin-right": ".4rem",
-                "margin-bottom": ".4rem",
-                "display": "inline-block"
-              }
+            ".mbr-shop .hide-modal": {
+              "display": "none"
             },
-            ".mbr-list": {
-              "margin": "0",
-              "padding": "0",
-              "list-style": "none",
-              "li": {
-                "margin-bottom": ".25rem",
-                "margin-right": "1rem",
-                "padding-bottom": "1rem"
-              }
+            ".mbr-shop .shopItemsModal": {
+              "cursor": "default",
+              "padding": "50px",
+              "width": "1000px",
+              "max-width": "100%",
+              "background-color": "#ffffff",
+              "z-index": "2000",
+              "overflow": "auto",
+              "position": "fixed"
             },
-            ".mbr-form": {
-              "margin-top": ".5rem",
-              "clear": "both",
+            ".mbr-shop .shopItemsModal p": {
+              "margin-bottom": "0"
+            },
+            ".mbr-shop .shopItemsModal ul": {
+              "margin-bottom": "0"
+            },
+            ".mbr-shop .shopItemsModal .card-description": {
+              "display": "block",
+              "width": "100%"
+            },
+            ".mbr-shop .shopItemsModal .close-modal": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "width": "50px",
+              "height": "4px",
+              "background-color": "red",
+              "transform": "rotate(45deg)",
+              "-webkit-transform": "rotate(45deg)"
+            },
+            ".mbr-shop .shopItemsModal .close-modal:before": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "width": "50px",
+              "height": "4px",
+              "background-color": "red",
+              "-webkit-transform": "rotate(-45deg)",
+              "transform": "rotate(-45deg)"
+            },
+            ".mbr-shop .test-overlay": {
+              "position": "absolute",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "rgba(0, 0, 0, 0.5)"
+            },
+            ".mbr-shop .filter-by-pu, .mbr-shop .filter-by-pd, .mbr-shop .filter-by-d": {
+              "display": "inline-block",
+              "margin-right": "3px"
+            },
+            ".mbr-shop .sort-buttons": {
+              "padding-bottom": "1rem",
+              "margin-right": "13px",
+              "text-align": "right"
+            },
+            ".mbr-shop .galleryItem:before": {
+              "width": "0 !important",
+              "height": "0 !important"
+            },
+            ".mbr-shop .modal-dialog": {
+              "max-width": "700px"
+            },
+            ".mbr-shop .mbr-gallery-item": {
+              "left": "0 !important",
+              "top": "0 !important",
+              "vertical-align": "top",
+              "position": "relative !important",
+              "-webkit-transform": "none !important",
+              "transform": "none !important"
+            },
+            ".mbr-shop .galleryItem h4, .mbr-shop .carousel-item h4": {
+              "font-style": "normal",
+              "line-height": "1",
+              "text-transform": "none",
+              "letter-spacing": "-1px",
+              "word-spacing": "0",
+              "margin-bottom": "0.3rem",
+              "padding-top": "15px",
+              "transition": "color 0.5s"
+            },
+            ".mbr-shop .galleryItem h5, .mbr-shop .carousel-item h5": {
+              "font-style": "italic",
+              "font-weight": "400",
+              "line-height": "22.36px",
+              "text-transform": "none",
+              "letter-spacing": "0px",
+              "word-spacing": "0"
+            },
+            ".mbr-shop .galleryItem p, .mbr-shop .carousel-item p": {
+              "font-style": "italic",
+              "font-weight": "400",
+              "text-transform": "none",
+              "letter-spacing": "0px",
+              "word-spacing": "0px",
+              "text-align": "center",
+              "display": "inline"
+            },
+            ".mbr-shop .item-button": {
+              "text-align": "center"
+            },
+            ".mbr-shop .modalButton": {
+              "display": "inline-block",
+              "float": "right",
+              "margin-right": "10px"
+            },
+            ".mbr-shop .modalButton.btn-success": {
+              "right": "15%"
+            },
+            ".mbr-shop .sidebar": {
+              "margin-top": "30px",
+              "position": "relative"
+            },
+            ".mbr-shop .sidebar-block": {
+              "position": "relative"
+            },
+            ".mbr-shop .sidebar-background:after": {
+              "content": "''",
+              "position": "absolute",
+              "width": "100%",
+              "height": "102%",
+              "background-color": "rgba(0, 0, 0, 0.05)",
+              "top": "-20px",
+              "right": "3px"
+            },
+            ".mbr-shop .bestsellers": {
+              "padding-left": "0",
+              "padding-right": "0",
+              "position": "relative",
+              "margin-bottom": "20px"
+            },
+            ".mbr-shop .bestsellers .onsale": {
+              "top": "-15px"
+            },
+            ".mbr-shop .bestsellers .price-block": {
+              "padding-top": "5px",
               "text-align": "left",
-              ".input-wrap": {
-                "display": "inline-block"
-              },
-              "input": {
-                "font-size": ".9rem",
-                "height": "3.5rem",
-                "border": "0px solid",
-                "border-radius": "5px",
-                "width": "400px",
-                "margin-right": ".6rem",
-                "padding": ".5rem 1rem"
-              }
+              "line-height": "1"
             },
-            ".input-group-btn": {
+            ".mbr-shop .bestsellers .mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-shop .bestsellers .mbr-gallery-item img": {
+              "width": "80px",
+              "float": "left",
+              "margin-right": "20px"
+            },
+            ".mbr-shop .bestsellers .mbr-gallery-item h4": {
+              "text-align": "left",
+              "padding-bottom": "5px",
+              "line-height": "1",
+              "border-bottom": "1px dotted #d6d6d6"
+            },
+            ".mbr-shop .bestsellers .mbr-gallery-item h5": {
+              "text-align": "left",
+              "display": "none"
+            },
+            ".mbr-shop .bestsellers .mbr-gallery-item p": {
+              "text-align": "left"
+            },
+            ".mbr-shop .bestsellers .btn": {
+              "display": "none"
+            },
+            ".mbr-shop .bestsellers-img": {
+              "display": "inline-block",
+              "width": "80px",
+              "height": "80px",
+              "overflow": "hidden"
+            },
+            ".mbr-shop .bestsellers-title": {
               "display": "inline-block"
             },
-            ".form-text": {
-              "color": "#ffffff",
+            ".mbr-shop .onsale": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "display": "block",
+              "transition": "color .3s ease",
+              "text-align": "center",
+              "z-index": "95",
+              "line-height": "30px",
+              "padding": "7.5px 15px",
+              "background": "@saleBg",
+              "color": "contrast(@saleBg)",
+              "font-weight": "400",
+              "font-style": "normal",
+              "text-transform": "none",
+              "letter-spacing": "0px"
+            },
+            ".mbr-shop .mbr-gallery-item__hided": {
+              "display": "none"
+            },
+            ".mbr-shop .mbr-gallery-item__hided h4, .mbr-shop .mbr-gallery-item__hided h5, .mbr-shop .mbr-gallery-item__hided p": {
+              "display": "none"
+            },
+            ".mbr-shop .mbr-gallery-item__hided .btn": {
+              "display": "none"
+            },
+            ".mbr-shop .galleryItem .price-block": {
+              "display": "block",
+              "margin-bottom": "8px"
+            },
+            ".mbr-shop .galleryItem .price-block span": {
+              "font-style": "normal",
+              "font-weight": "700",
+              "line-height": "1",
+              "text-transform": "none",
+              "letter-spacing": "-1px",
+              "word-spacing": "0"
+            },
+            ".mbr-shop .mbr-gallery-filter": {
+              "padding-left": "0",
+              "text-align": "left",
+              "padding-top": "0"
+            },
+            ".mbr-shop .mbr-gallery-filter ul li": {
+              "position": "relative",
+              "padding": "7px 0 7px 25px",
+              "border-bottom": "1px dotted #d6d6d6",
+              "margin": "0",
+              "font-style": "normal",
+              "font-weight": "400",
+              "line-height": "24.99px",
+              "text-transform": "none",
+              "letter-spacing": "0px",
+              "word-spacing": "0",
+              "direction": "ltr",
+              "border": "none",
+              "display": "list-item",
+              "text-align": "left",
+              "transition": "all 0.3s ease-out",
+              "cursor": "pointer"
+            },
+            ".mbr-shop .mbr-gallery-filter ul li.active": {
+              "background-color": "transparent",
+              "font-weight": "bold"
+            },
+            ".mbr-shop .mbr-gallery-filter ul li:before": {
+              "content": "\"\"",
+              "position": "absolute",
+              "left": "0",
+              "top": "50%",
+              "margin-top": "-2.5px",
+              "background": "rgba(0, 0, 0, 0.3)",
+              "width": "5px",
+              "height": "5px"
+            },
+            ".mbr-shop .mbr-gallery-filter ul li:hover": {
+              "padding-left": "30px",
+              "background-color": "transparent"
+            },
+            ".mbr-shop .range-slider": {
+              "padding-bottom": "25px"
+            },
+            ".mbr-shop .filter-cost": {
+              "display": "block",
+              "vertical-align": "middle",
+              "max-width": "250px",
+              "text-align": "left",
+              "position": "relative",
+              "margin-bottom": "30px"
+            },
+            ".mbr-shop .filter-cost p": {
+              "margin-bottom": "10px",
+              "font-size": "16px",
+              "line-height": "21px",
+              "color": "#666666",
+              "font-weight": "bold"
+            },
+            ".mbr-shop .price-controls": {
+              "position": "relative",
+              "height": "36px",
+              "margin-bottom": "30px",
+              "border": "2px solid #666666",
+              "border-radius": "2px",
+              "font-size": "0"
+            },
+            ".mbr-shop .price-controls label": {
+              "display": "inline-block",
+              "width": "50%",
+              "font-size": "14px",
+              "line-height": "32px",
+              "color": "#666666",
+              "font-weight": "normal",
+              "cursor": "pointer",
+              "margin-bottom": "0"
+            },
+            ".mbr-shop .price-controls label.min-price": {
+              "border-right": "2px solid #666666"
+            },
+            ".mbr-shop .price-controls input": {
+              "width": "100%",
+              "background-color": "#ffffff",
+              "border": "none",
+              "line-height": "31px",
+              "height": "31px",
+              "text-align": "center",
+              "-webkit-user-select": "none",
+              "-ms-user-select": "none",
+              "user-select": "none"
+            },
+            ".mbr-shop .range-controls": {
+              "position": "relative"
+            },
+            ".mbr-shop .range-controls .scale": {
+              "width": "100%",
+              "height": "2px",
+              "background-color": "rgba(190, 190, 190, 0.3)"
+            },
+            ".mbr-shop .range-controls .bar": {
+              "margin-left": "0",
+              "width": "100%",
+              "height": "2px",
+              "background-color": "#666666"
+            },
+            ".mbr-shop .toggle": {
+              "position": "absolute",
+              "top": "-9px",
+              "width": "4px",
+              "height": "4px",
+              "border": "8px solid #666666",
+              "border-radius": "100%",
+              "box-sizing": "content-box",
+              "background-color": "#ababab",
+              "cursor": "pointer"
+            },
+            ".mbr-shop .toggle:hover, .mbr-shop .toggle:active": {
+              "background-color": "#c0a375"
+            },
+            ".mbr-shop .min-toggle": {
+              "left": "0"
+            },
+            ".mbr-shop .max-toggle": {
+              "right": "0"
+            },
+            ".mbr-shop .hided-by-price": {
+              "display": "none"
+            },
+            ".mbr-shop .text-modal": {
+              "padding-right": "30px",
+              "padding-left": "30px"
+            },
+            ".mbr-shop .text-modal .item-button": {
+              "text-align": "left !important"
+            },
+            ".mbr-shop .text-modal .price-block": {
+              "line-height": "1",
+              "border-bottom": "1px dotted #d6d6d6"
+            },
+            ".mbr-shop .text-modal .price-block p": {
+              "display": "inline"
+            },
+            ".mbr-shop .text-modal .price-block span": {
+              "display": "inline",
+              "font-weight": "700",
+              "padding": "10px 0 20px 0"
+            },
+            ".mbr-shop .text-modal .card-description": {
+              "padding-top": "20px",
+              "display": "block",
+              "font-size": "16px",
+              "line-height": "24px",
+              "margin-bottom": "50px"
+            },
+            ".mbr-shop .modal-control-panel": {
+              "padding-right": "0"
+            },
+            ".mbr-shop .modal-cb": {
+              "display": "inline-block",
+              "float": "right",
+              "margin-right": "10px",
+              "margin-left": "10px"
+            },
+            ".mbr-shop .shopItemsModalBg": {
+              "width": "100%",
+              "height": "100%"
+            },
+            ".mbr-shop .close-modal-wrapper": {
+              "cursor": "pointer",
+              "width": "40px",
+              "height": "40px",
+              "position": "absolute",
+              "top": "0",
+              "right": "0"
+            },
+            ".mbr-shop .close-modal-wrapper:after": {
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "40px",
+              "height": "3px",
+              "background-color": "#cccccc",
+              "top": "50%",
+              "right": "5%",
+              "-webkit-transform": "rotate(-45deg)",
+              "transform": "rotate(-45deg)"
+            },
+            ".mbr-shop .close-modal-wrapper:before": {
+              "content": "\"\"",
+              "position": "absolute",
+              "width": "3px",
+              "height": "40px",
+              "background-color": "#cccccc",
+              "right": "50%",
+              "top": "5%",
+              "-webkit-transform": "rotate(-45deg)",
+              "transform": "rotate(-45deg)"
+            },
+            ".mbr-shop .closeModal": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0"
+            },
+            ".mbr-shop .galleryItem .sidebar_wraper": {
+              "text-align": "center"
+            },
+            ".mbr-shop .shopItemsModal .sidebar_wraper": {
               "text-align": "left"
             },
-            ".subtext-1": {
-              "color": "#ffffff",
-              "text-align": "left"
+            ".mbr-shop .shopItemsModal .onsale": {
+              "border": "1px solid #e7e7e7"
             },
-            ".subtext-2": {
-              "color": "#ffffff",
-              "text-align": "left"
+            ".mbr-shop .shop-items .onsale, .mbr-shop .bestseller-block .onsale": {
+              "font-size": "15px !important"
             },
-            ".column-menu": {
-              "ul": {
-                "padding": "0",
+            ".mbr-shop .item_overlay": {
+              "position": "absolute",
+              "width": "100%",
+              "height": "100%",
+              "z-index": "99",
+              "background": "transparent"
+            },
+            ".mbr-shop .style_overlay": {
+              "position": "absolute",
+              "width": "100%",
+              "height": "100%"
+            },
+            ".mbr-shop .price-range": {
+              "display": "inline-block"
+            },
+            ".mbr-shop .price-range-reset": {
+              "display": "inline-block"
+            },
+            ".mbr-shop .bestsellers .item-button": {
+              "display": "none !important"
+            },
+            ".mbr-shop .range-slider h4": {
+              "margin-bottom": "15px"
+            },
+            ".mbr-shop .mbr-gallery-filter ul": {
+              "padding-left": "0px",
+              "display": "inline-block",
+              "list-style": "none",
+              "margin-bottom": "0px"
+            },
+            ".mbr-shop .categories:after": {
+              "content": "\"\"",
+              "display": "table",
+              "clear": "both"
+            },
+            "@media (min-width: 767px) and (max-width: 1100px)": {
+              ".mbr-shop .col-md-9": {
+                "width": "100%"
+              },
+              ".mbr-shop .col-md-3": {
+                "width": "100%"
+              },
+              ".mbr-shop .sidebar-background:after": {
+                "top": "0"
+              },
+              ".mbr-shop .bestseller-block": {
+                "width": "100%",
                 "margin": "0",
-                "list-style-type": "none",
-                "word-break": "break-word",
-                "li": {
-                  "padding": ".2rem 0"
-                }
+                "display": "inline-block",
+                "float": "left",
+                "padding-top": "15px"
+              },
+              ".mbr-shop .range-slider": {
+                "width": "49%",
+                "margin": "0",
+                "display": "inline-block",
+                "float": "right",
+                "padding-top": "15px"
+              },
+              ".mbr-shop .bestsellers": {
+                "width": "100%"
+              },
+              ".mbr-shop .bestsellers .mbr-gallery-item": {
+                "width": "49%",
+                "display": "inline-block"
+              },
+              ".mbr-shop .sidebar-categories": {
+                "width": "49%",
+                "margin": "0",
+                "display": "inline-block",
+                "padding-top": "15px"
+              },
+              ".mbr-shop .price-range": {
+                "max-width": "250px",
+                "text-align": "center"
+              },
+              ".clearfix:after": {
+                "content": "\"\"",
+                "display": "table",
+                "clear": "both"
               }
             },
-            "@media (max-width: 991px)": {
-              ".social-media": {
-                "padding": "0",
-                "text-align": "center"
+            "@media (max-width: 991px) and (min-width: 768px)": {
+              ".mbr-shop .mbr-gallery-item": {
+                "width": "33%"
+              }
+            },
+            "@media (max-width: 500px)": {
+              ".mbr-shop .shopItemsModal": {
+                "padding": "50px 10px 10px 10px"
               },
-              ".subtext-1, .subtext-2, .card-support": {
-                "text-align": "center"
+              ".mbr-shop .shop-title": {
+                "max-width": "100%"
               },
-              ".mbr-list": {
-                "margin-top": "2rem",
-                "text-align": "center"
-              },
-              ".form-text": {
-                "text-align": "center"
-              },
-              ".follow-section": {
-                "margin": "0"
-              },
-              ".mbr-form": {
+              ".mbr-shop .mbr-gallery-item": {
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 1200px)": {
+              ".mbr-shop .sort-buttons": {
                 "text-align": "center",
-                "input": {
-                  "width": "auto"
-                }
-              },
-              ".social-media ul li": {
-                "margin-right": ".1rem"
-              },
-              ".follow-heading": {
-                "padding": "0",
-                "text-align": "center"
-              },
-              ".firstColumn, .secondColumn": {
-                "text-align": "center"
+                "margin-right": "0 !important"
               }
             },
-            "LI": {
-              "color": "#ffffff"
+            "@media (max-width: 767px)": {
+              ".mbr-shop .image-modal": {
+                "text-align": "center"
+              },
+              ".mbr-shop .image-modal img": {
+                "max-height": "50vh",
+                "width": "auto",
+                "max-width": "100%"
+              },
+              ".mbr-shop .shopItemsModal": {
+                "top": "15%",
+                "bottom": "70px",
+                "left": "10%",
+                "width": "80%"
+              },
+              ".mbr-shop .shopItemsModal .image-modal": {
+                "padding-right": "0"
+              },
+              ".mbr-shop .sidebar-background:after": {
+                "top": "-1%"
+              }
+            },
+            "@media (max-width: 1100px)": {
+              ".mbr-shop .shopItemsModal": {
+                "max-height": "85vh",
+                "width": "90%",
+                "left": "5%",
+                "margin-left": "0"
+              },
+              ".mbr-shop .sort-buttons": {
+                "margin-right": "21px"
+              },
+              ".mbr-shop .sidebar-background:after": {
+                "right": "0",
+                "width": "100%"
+              },
+              ".mbr-shop .text-modal .card-description": {
+                "width": "100%"
+              },
+              ".mbr-shop .text-modal .price-block": {
+                "width": "100%"
+              },
+              ".mbr-shop .text-modal h4": {
+                "padding-top": "30px"
+              }
+            },
+            ".shopItemsModal_wraper .mbr-section-btn": {
+              "display": "block !important"
+            },
+            ".range-slider .mbr-section-btn": {
+              "margin": "0"
+            },
+            ".oldprice": {
+              "color": "#767676",
+              "padding-left": ".8rem",
+              "text-decoration": "line-through"
+            },
+            ".mbr-gallery-row": {
+              "border-top": "1px solid #ededed",
+              "border-left": "1px solid #ededed"
+            },
+            ".mbr-gallery-item": {
+              "border-right": "1px solid #ededed",
+              "border-bottom": "1px solid #ededed",
+              ".sidebar_wraper": {
+                "padding": ".5rem",
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%",
+                "display": "flex",
+                "-webkit-flex-direction": "column",
+                "flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "height": "100%",
+                "color": "#232323",
+                ".price-block": {
+                  "text-align": "center !important"
+                },
+                ".item-title": {
+                  "padding-bottom": ".5rem",
+                  "text-align": "center !important",
+                  "opacity": "0",
+                  "margin-top": "-1rem"
+                },
+                ".item-subtitle": {
+                  "text-align": "center !important",
+                  "opacity": "0",
+                  "margin-top": "-1rem"
+                },
+                ".mbr-section-btn,.price-block": {
+                  "opacity": "0",
+                  "margin-bottom": "-1rem"
+                }
+              },
+              "&:hover": {
+                ".style_overlay": {
+                  "background": "@itemOverlay",
+                  "opacity": "@itemOverlayOpacity",
+                  "transition": "all .5s"
+                },
+                ".sidebar_wraper": {
+                  "transition": "all .5s",
+                  ".item-title": {
+                    "transition": "all .5s",
+                    "opacity": "1 ",
+                    "margin-top": "0"
+                  },
+                  ".item-subtitle": {
+                    "transition": "all .5s",
+                    "opacity": "1 ",
+                    "margin-top": "0"
+                  },
+                  ".mbr-section-btn,.price-block": {
+                    "transition": "all .5s",
+                    "opacity": "1 ",
+                    "margin-bottom": "0"
+                  }
+                }
+              }
+            },
+            "& when (@shop__showPriceRange)": {
+              ".range-controls": {
+                "display": "block !important"
+              }
+            },
+            "& when (@shop__showSortButtons)": {
+              ".sort-buttons": {
+                "display": "block !important"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".shopItemsModal.row": {
+                "position": "absolute !important",
+                "top": "calc(50% ~'-' 300px) !important",
+                "left": "calc(50% ~'-' 500px) !important"
+              }
             }
           },
-          "_name": "footer3",
-          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons Count\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"range\" inline name=\"menuItems\" title=\"Menu Items\" value=\"1\" min=\"1\" max=\"6\" step=\"1\">\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#450507\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#0f7821\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Cards\" name=\"showCards\">\n        <input type=\"checkbox\" title=\"Gray Filter\" name=\"grayFilter\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"visa\" title=\"Visa\" condition=\"showCards\" checked>\n        <input type=\"checkbox\" name=\"mastercard\" title=\"Master Card\" condition=\"showCards\" checked>\n        <input type=\"checkbox\" name=\"americanexpress\" title=\"American Express\" condition=\"showCards\" checked>\n        <input type=\"checkbox\" name=\"paypal\" title=\"PayPal\" condition=\"showCards\" checked>\n        <input type=\"checkbox\" name=\"amazon\" title=\"Amazon\" condition=\"showCards\" checked>\n        <input type=\"checkbox\" name=\"ebay\" title=\"Ebay\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"westernunion\" title=\"Western Union\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"unionpayments\" title=\"Union payments\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"bitcoin\" title=\"Bitcoin\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"discover\" title=\"Discover\" condition=\"showCards\" checked>\n        <input type=\"checkbox\" name=\"jcb\" title=\"Jcb\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"stripe\" title=\"Stripe\" condition=\"showCards\">\n        <input type=\"checkbox\" name=\"dinersclub\" title=\"Diners Club\" condition=\"showCards\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/footer%20back%20nsw-458x217.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1b0203\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row align-center justify-content-center\">\n            <div class=\"col-lg-6 col-xl-4\">\n                <div class=\"follow-section\" mbr-if=\"showIcons\">\n                    <div class=\"follow-heading mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".follow-heading, .social-media\" mbr-text><p><a href=\"https://www.rms.nsw.gov.au/roads/registration/get-nsw-registration/historic-vehicles/index.html\" class=\"text-secondary\">\n                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Transport&nbsp;&nbsp;&nbsp;&nbsp;</a><br><a href=\"https://www.rms.nsw.gov.au/roads/registration/get-nsw-registration/historic-vehicles/index.html\" class=\"text-secondary\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roads &amp; Maritime&nbsp;</a><br><a href=\"https://www.rms.nsw.gov.au/roads/registration/get-nsw-registration/historic-vehicles/index.html\" class=\"text-secondary\">NSW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services</a></p></div>\n                    <div class=\"social-media pb-3 align-left\">\n                        <ul>\n                            <li mbr-if=\"iconsCount > 0\">\n                                <a class=\"icon-transition\" href=\"https://www.rms.nsw.gov.au/roads/registration/get-nsw-registration/historic-vehicles/index.html\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-website-theme\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"https://www.rms.nsw.gov.au/contact-us/phone-contacts.html\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"https://www.service.nsw.gov.au/service-centre\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v4-loction-1\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"row column-menu\">\n                    <div class=\"col-xl-5 col-md-6\">\n                        <ul mbr-article class=\"firstColumn align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".firstColumn\">\n                            <li><br></li>\n                        </ul>\n                    </div>\n                    <div class=\"col-xl-5 col-md-6\">\n                        <ul mbr-article class=\"secondColumn align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".secondColumn\">\n                            <li><br><br></li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-6 col-xl-6 form-section\">\n                <ul mbr-list mbr-list-grow=\"menuItems\" class=\"mbr-list list-inline align-left\">\n                    <li mbr-text class=\"list-inline-item mbr-fonts-style\" mbr-theme-style=\"display-7\">HVS JCCA Officer – John Reid&nbsp;<br>Phone: 0410 075 119 &nbsp; &nbsp;&nbsp;<br></li>\n                    \n                    \n                </ul>\n                <div class=\"input-form\">\n                    <span class=\"mbr-fonts-style form-text\" data-app-selector=\".form-text\" mbr-theme-style=\"display-7\" mbr-text>let us know your email and we'll get in touch soon</span>\n                    <div mbr-form class=\"form1\">\n                        <div data-form-alert hidden>Thanks for filling out the form!</div>\n                        <form class=\"mbr-form\" action=\"HVSnsw@jcca.org.au\" method=\"post\" name=\"My Mobirise Form\">\n                            <div class=\"input-wrap\" data-for=\"email\">\n                                <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field special-form\" name=\"email\" data-form-field=\"E-mail\" required>\n                            </div>\n                            <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mobirise.com/\" type=\"submit\" class=\"btn btn-form btn-white\" data-app-placeholder=\"Type Text\">Send</a></span>\n                        </form>\n                    </div>\n                </div>\n                <h3 class=\"subtext-1 mbr-fonts-style pb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".subtext-1\" mbr-text>.</h3>\n                <h3 class=\"subtext-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtext-2, .card-support\" mbr-text mbr-if=\"showCards\">\n                    Supported payment systems\n                </h3>\n                <ul class=\"card-support align-left\" mbr-if=\"showCards\">\n                    <li mbr-if=\"visa\">\n                        <img src=\"../_images/payments/visa.png\" height=\"30\" alt=\"Visa\">\n                    </li>\n                    <li mbr-if=\"mastercard\">\n                        <img src=\"../_images/payments/master-card.png\" height=\"30\" alt=\"Master Card\">\n                    </li>\n                    <li mbr-if=\"americanexpress\">\n                        <img src=\"../_images/payments/american-express.png\" height=\"30\" alt=\"American Express\">\n                    </li>\n                    <li mbr-if=\"paypal\">\n                        <img src=\"../_images/payments/paypal.png\" height=\"30\" alt=\"PayPal\">\n                    </li>\n                    <li mbr-if=\"dinersclub\">\n                        <img src=\"../_images/payments/diners-club.png\" height=\"30\" alt=\"Diners-club\">\n                    </li>\n                    <li mbr-if=\"discover\">\n                        <img src=\"../_images/payments/discover.png\" height=\"30\" alt=\"Discover\">\n                    </li>\n                    <li mbr-if=\"bitcoin\">\n                        <img src=\"../_images/payments/bitcoin.png\" height=\"30\" alt=\"Bitcoin\">\n                    </li>\n                    <li mbr-if=\"westernunion\">\n                        <img src=\"../_images/payments/western-union.png\" height=\"30\" alt=\"Western Union\">\n                    </li>\n                    <li mbr-if=\"jcb\">\n                        <img src=\"../_images/payments/jcb.png\" height=\"30\" alt=\"JCB\">\n                    </li>\n                    <li mbr-if=\"stripe\">\n                        <img src=\"../_images/payments/stripe.png\" height=\"30\" alt=\"Stripe\">\n                    </li>\n                    <li mbr-if=\"amazon\">\n                        <img src=\"../_images/payments/amazon.png\" height=\"30\" alt=\"Amazon\">\n                    </li>\n                    <li mbr-if=\"ebay\">\n                        <img src=\"../_images/payments/ebay.png\" height=\"30\" alt=\"Ebay\">\n                    </li>\n                    <li mbr-if=\"unionpayments\">\n                        <img src=\"../_images/payments/union-pay.png\" height=\"30\" alt=\"Union Pay\">\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rjUYE7TDBX",
-          "_protectedParams": [],
-          "_global": true,
+          "_name": "shop4",
+          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Hover Color\" name=\"itemOverlay\" value=\"#0f7821\">\n        <input type=\"range\" inline title=\"Hover Opacity\" name=\"itemOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\">\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#450507\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n        <input type=\"shop\" title=\"Shop\" name=\"shop\" buttons=\"secondary\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" card-buttons></div>\n    </div>\n\n</section>",
+          "_anchor": "shop4-5y",
+          "_isUserblock": true,
+          "_sourceTheme": "storem4",
+          "_cid": "rjYMS5cAdp",
+          "_protectedParams": [
+            "shop__showSidebar",
+            "shop__showCardButtons",
+            "shop__showSortButtons",
+            "shop__showBestSellers",
+            "shop__showPriceRange",
+            "shop__showTags",
+            "text_all",
+            "sidebar1",
+            "sidebar2",
+            "sidebar3",
+            "shop__filtersTextStyle",
+            "buttons_default_class",
+            "filter_by_d",
+            "filter_by_pu",
+            "filter_by_pd",
+            "price_range",
+            "price_range_reset",
+            "shop"
+          ],
+          "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "footer3-5u"
+          "_params": {
+            "shop__showSidebar": false,
+            "shop__showCardButtons": false,
+            "shop__showSortButtons": false,
+            "shop__showBestSellers": true,
+            "shop__showPriceRange": true,
+            "shop__showTags": true,
+            "text_all": "All",
+            "sidebar1": "Best Sellers",
+            "sidebar2": "Price Range",
+            "sidebar3": "Filter",
+            "shop__filtersTextStyle": "display-7",
+            "buttons_default_class": "secondary",
+            "filter_by_d": "<a class=\"btn btn-sm btn-secondary disableSortButton\" href=\"\">Default sorting</a>",
+            "filter_by_pu": "<a class=\"btn btn-sm btn-secondary-outline disableSortButton\" href=\"\">Price: low to high</a>",
+            "filter_by_pd": "<a class=\"btn btn-sm btn-secondary-outline disableSortButton\" href=\"\">Price: high to low</a>",
+            "price_range": "<a class=\"btn btn-sm btn-primary\" data-app-btn=\"true\" href=\"\">Filter</a>",
+            "price_range_reset": "<a class=\"btn btn-sm btn-secondary\" data-app-btn=\"true\" href=\"\">Show all</a>",
+            "shop": [
+              {
+                "tags": "Responsive",
+                "bestSeller": false,
+                "onSale": false,
+                "oldPrice": false,
+                "itemTitle": ".",
+                "itemDescription": "JCCA NSW HVS Contact Details:<br><br><ul><li>HVS JCCA Officer – John Reid&nbsp;</li> <li>Phone: 0410 075 119&nbsp;</li> <li>&nbsp;email HVSnsw@jcca.org.au</li></ul> <br>Scrutineer\t    Tony Cope\t             0448 400 160\t<br>Sydney Metro&nbsp;<div>Scrutineer\t    Stewart Copeland\t    0407 706 299 <br>NSW North&nbsp;</div><div>Scrutineer     Chris Forsey\t           0413 996 481\t<br>NSW South<br><br>NSW NSW Historic Vehicle Scheme</div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": ".",
+                "oldPriceValue": "$28",
+                "sale": "-50%",
+                "button": "<a data-app-btn=\"true\" href=\"mailto:HVSnsw@jcca.org.au\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-air-editor note-editable btn-danger\">Contact John Reid</a>",
+                "image": "@PROJECT_PATH@/assets/images/john-reid.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/john-reid.svg",
+                "customStyle5": "display-5",
+                "customStyle7": "display-7",
+                "customStyleSale": "display-7",
+                "customStyleTags": "display-4",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Creative",
+                "bestSeller": false,
+                "onSale": false,
+                "oldPrice": false,
+                "itemTitle": ".",
+                "itemDescription": "&nbsp;NSW HVS Contact Details:<div><br></div><div>HVS JCCA Officer – John Reid&nbsp;</div><div>Phone: 0410 075 119&nbsp;</div><div>&nbsp;email HVSnsw@jcca.org.au</div><div><br></div><div>Scrutineer\tTony Cope\t0448 400 160&nbsp;</div><div>Sydney Metro&nbsp;</div><div>Scrutineer\tStewart Copeland\t0407 706 299&nbsp;</div><div>NSW North&nbsp;</div><div>Scrutineer Chris Forsey\t0413 996 481&nbsp;</div><div>NSW South</div><div><br></div><div>NSW NSW Historic Vehicle Scheme</div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": ".",
+                "oldPriceValue": "$76",
+                "sale": "-50%",
+                "button": "<a data-app-btn=\"true\" href=\"mailto:HVSnsw@jcca.org.au\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-editable note-air-editor btn-danger\">Contact John Reid</a>",
+                "image": "@PROJECT_PATH@/assets/images/blank-portrait-792x792.png",
+                "thumb": "@PROJECT_PATH@/assets/images/blank-portrait-792x792-792x792.png",
+                "customStyle5": "display-5",
+                "customStyle7": "display-7",
+                "customStyleSale": "display-7",
+                "customStyleTags": "display-4",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Animated",
+                "bestSeller": false,
+                "onSale": false,
+                "oldPrice": false,
+                "itemTitle": ".",
+                "itemDescription": "<p>Transport Roads &amp; Maritime Services\n\n</p><p><br></p><p>General inquiries: 13 22 13\n\n\n</p><p><br></p><p><br></p><p>Enrolment Processing Unit\n(Historic Vehicle Scheme)\nPO Box 122\nGlen Innes NSW 2370</p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": ".",
+                "oldPriceValue": "$140",
+                "sale": "-50%",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.rms.nsw.gov.au/roads/registration/get-nsw-registration/historic-vehicles/index.html\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-editable btn-danger note-air-editor\">Follow Link toTransport Roads &amp; Maritime Services\n\n<br>&nbsp;</a>",
+                "image": "@PROJECT_PATH@/assets/images/trms-1-logo.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/trms-1-logo.svg",
+                "customStyle5": "display-5",
+                "customStyle7": "display-7",
+                "customStyleSale": "display-7",
+                "customStyleTags": "display-4",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Awesome",
+                "bestSeller": false,
+                "onSale": false,
+                "oldPrice": false,
+                "itemTitle": ".",
+                "itemDescription": "Transport Roads &amp; Maritime Services<div><br></div><div>General inquiries: 13 22 13</div><div><br></div><div><br></div><div>Enrolment Processing Unit </div><div>(Historic Vehicle Scheme) </div><div>PO Box 122 Glen Innes NSW 2370</div><div><br></div><div><br></div><div><br></div><div>&nbsp;</div><div><br></div>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": ".",
+                "oldPriceValue": "$32",
+                "sale": "-50%",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.rms.nsw.gov.au/roads/registration/get-nsw-registration/historic-vehicles/index.html\" data-app-placeholder=\"Type Text\" class=\"btn display-7 note-editable btn-danger note-air-editor\">Follow Link to Transport Roads &amp; Maritime Services </a>",
+                "image": "@PROJECT_PATH@/assets/images/trms-card.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/trms-card.svg",
+                "customStyle5": "display-5",
+                "customStyle7": "display-7",
+                "customStyleSale": "display-7",
+                "customStyleTags": "display-4",
+                "caption": "Type caption here",
+                "active": true,
+                "alt": "",
+                "title": ""
+              }
+            ]
+          }
         }
       ]
     },
