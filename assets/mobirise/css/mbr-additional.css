@@ -2023,35 +2023,35 @@ body {
     align-items: center;
   }
 }
-.cid-rbMJG1jXVT {
-  padding-top: 45px;
+.cid-rk0p6V3pve {
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #450507;
 }
-.cid-rbMJG1jXVT .mbr-text {
-  color: #efefef;
+.cid-rk0p6V3pve .mbr-text {
+  color: #767676;
 }
-.cid-rbMJG1jXVT h4 {
+.cid-rk0p6V3pve h4 {
   text-align: center;
 }
-.cid-rbMJG1jXVT p {
+.cid-rk0p6V3pve p {
   text-align: center;
 }
-.cid-rbMJG1jXVT .card .card-img {
+.cid-rk0p6V3pve .card .card-img {
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
 }
-.cid-rbMJG1jXVT .card:hover .step {
+.cid-rk0p6V3pve .card:hover .step {
   color: #ffffff;
   border: 0px solid transparent;
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
-.cid-rbMJG1jXVT .card:hover .step:before {
+.cid-rk0p6V3pve .card:hover .step:before {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-.cid-rbMJG1jXVT .step {
+.cid-rk0p6V3pve .step {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   width: 100px;
@@ -2065,7 +2065,7 @@ body {
   border-radius: 50%;
   transition: all .3s;
 }
-.cid-rbMJG1jXVT .step:before {
+.cid-rk0p6V3pve .step:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -2079,33 +2079,33 @@ body {
   background: linear-gradient(45deg, #000000, #c7b43c);
   border-radius: 50%;
 }
-.cid-rbMJG1jXVT .underline {
+.cid-rk0p6V3pve .underline {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
-.cid-rbMJG1jXVT .underline .line {
+.cid-rk0p6V3pve .underline .line {
   width: 5rem;
   height: 3px;
   background: linear-gradient(90deg, #84090c, #ffffff);
   display: inline-block;
 }
 @media (min-width: 768px) {
-  .cid-rbMJG1jXVT .mbr-section-title,
-  .cid-rbMJG1jXVT .underline {
+  .cid-rk0p6V3pve .mbr-section-title,
+  .cid-rk0p6V3pve .underline {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
-.cid-rbMJG1jXVT .card-title,
-.cid-rbMJG1jXVT .card-img {
-  color: #efefef;
-}
-.cid-rbMJG1jXVT P {
+.cid-rk0p6V3pve .card-title,
+.cid-rk0p6V3pve .card-img {
   color: #ffffff;
 }
-.cid-rbMJG1jXVT .mbr-section-title,
-.cid-rbMJG1jXVT .underline {
+.cid-rk0p6V3pve .mbr-section-title,
+.cid-rk0p6V3pve .underline {
   color: #ffffff;
+}
+.cid-rk0p6V3pve SPAN {
+  text-align: right;
 }
 .cid-rjPIaTGlMQ {
   padding-top: 90px;
