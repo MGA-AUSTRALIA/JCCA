@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jensen Car Club of Australia",
-    "currentPage": "Club-Permits.html",
+    "currentPage": "Jensen-Club-Membership.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Poiret+One:400"
       }
     ],
-    "uniqCompNum": 237,
+    "uniqCompNum": 241,
     "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -4218,80 +4218,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".container-fluid": {
-              "padding": "0 3rem"
-            },
-            "ul.list-inline": {
-              "margin": "0",
-              "-webkit-align-self": "center",
-              "align-self": "center",
-              "li": {
-                "margin": "0",
-                "padding": ".5rem"
-              },
-              "img": {
-                "max-width": "6rem",
-                "padding-bottom": ".5rem",
-                "& when (@grayFilter)": {
-                  "-webkit-filter": "grayscale(100%)",
-                  "-moz-filter": "grayscale(100%)",
-                  "-ms-filter": "grayscale(100%)",
-                  "-o-filter": "grayscale(100%)",
-                  "filter": "gray"
-                },
-                "&:hover": {
-                  "-webkit-filter": "none",
-                  "-moz-filter": "none",
-                  "-ms-filter": "none",
-                  "-o-filter": "none",
-                  "filter": "none"
-                }
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".container-fluid": {
-                "padding": "0 1rem"
-              },
-              ".list-inline-item img": {
-                "max-width": "5rem"
-              }
-            },
-            ".underline": {
-              "padding-top": ".5rem",
-              "padding-bottom": ".5rem",
-              ".line": {
-                "width": "5rem",
-                "height": "3px",
-                "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)",
-                "display": "inline-block"
-              }
-            },
-            ".mbr-section-title,.underline": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "info4",
-          "_customHTML": "<section group=\"Info info4\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Gray Filter\" name=\"grayFilter\">\n        <input type=\"checkbox\" title=\"Visa\" name=\"showVisa\">\n        <input type=\"checkbox\" title=\"Master Card\" name=\"showMasterCard\">\n        <input type=\"checkbox\" title=\"American Express\" name=\"showAmericanExpress\">\n        <input type=\"checkbox\" title=\"Pay Pal\" name=\"showPayPal\" checked>\n        <input type=\"checkbox\" title=\"Diners Club\" name=\"showDinersClub\">\n        <input type=\"checkbox\" title=\"Discover\" name=\"showDiscover\">\n        <input type=\"checkbox\" title=\"Bitcoin\" name=\"showBitcoin\">\n        <input type=\"checkbox\" title=\"Western Union\" name=\"showWesternUnion\">\n        <input type=\"checkbox\" title=\"JCB\" name=\"showJcb\">\n        <input type=\"checkbox\" title=\"Stripe\" name=\"showStripe\">\n        <input type=\"checkbox\" title=\"Amazon\" name=\"showAmazon\">\n        <input type=\"checkbox\" title=\"Ebay\" name=\"showEbay\">\n        <input type=\"checkbox\" title=\"Union Pay\" name=\"showUnionPay\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#84090c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">\n                    SUPPORTED PAYMENT SYSTEM\n                </h2>\n                <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style pt-3 mbr-light align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-class=\"{'pb-5':!showTitle}\">At present you may pay using Paypal or via direct credit by using the \"BUY NOW\" Button above.&nbsp;</h3>\n            </div>\n\n            <div class=\"row justify-content-center col-12 col-md-12 col-lg-10 col-xl-8\" mbr-class=\"{'pt-5':showTitle}\">\n                <ul class=\"list-inline align-center\">\n                    <li class=\"list-inline-item\" mbr-if=\"showVisa\">\n                        <img src=\"../_images/payments/visa.png\" alt=\"Visa\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showMasterCard\">\n                        <img src=\"../_images/payments/master-card.png\" alt=\"Master Card\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showAmericanExpress\">\n                        <img src=\"../_images/payments/american-express.png\" alt=\"American Express\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showPayPal\">\n                        <img src=\"../_images/payments/paypal.png\" alt=\"Pay Pal\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showDinersClub\">\n                        <img src=\"../_images/payments/diners-club.png\" alt=\"Diners Club\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showDiscover\">\n                        <img src=\"../_images/payments/discover.png\" alt=\"Discover\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showBitcoin\">\n                        <img src=\"../_images/payments/bitcoin.png\" alt=\"Bitcoin\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showWesternUnion\">\n                        <img src=\"../_images/payments/western-union.png\" alt=\"Western Union\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showJcb\">\n                        <img src=\"../_images/payments/jcb.png\" alt=\"JCB\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showStripe\">\n                        <img src=\"../_images/payments/stripe.png\" alt=\"Stripe\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showAmazon\">\n                        <img src=\"../_images/payments/amazon.png\" alt=\"Amazon\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showEbay\">\n                        <img src=\"../_images/payments/ebay.png\" alt=\"Ebay\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showUnionPay\">\n                        <img src=\"../_images/payments/union-pay.png\" alt=\"Union Pay\">\n                    </li>\n\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rjH0jUqn09",
-          "_anchor": "info4-3v",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
@@ -4302,7 +4228,8 @@
               "padding": "0 3rem"
             },
             ".mbr-section-title": {
-              "margin-bottom": "1.5em"
+              "margin-bottom": "1.5em",
+              "color": "#ffffff"
             },
             ".input-main": {
               "width": "99.6%",
@@ -4348,14 +4275,137 @@
                 "padding": "1rem 2rem",
                 "font-size": "16px !important"
               }
+            },
+            ".form-label-outside": {
+              "color": "#ffffff"
             }
           },
           "_name": "form3",
-          "_customHTML": "<section group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Input Fields Color\" name=\"fieldsColor\" value=\"#efefef\">\n        <!-- <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\"> -->\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"form-1 col-md-10 col-lg-8\">\n                <h1 class=\"mbr-fonts-style mbr-section-title align-center\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    New Member Form</h1>\n                <div data-form-alert hidden>Thanks for filling out the form We'll be in touch soon!</div>\n                <form class=\"mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"New Membership Application\">\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"firstname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-fullname\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Name&nbsp;</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"fullname\" data-form-field=\"Full Name\" required>\n                        </div>\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"lastname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Address\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Postal Address</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Address\" data-form-field=\"Address\" required>\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"email\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">E-mail</label>\n                            <input type=\"email\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" data-form-field=\"Email\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"phone\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-phone\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Phone</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" data-form-field=\"Phone\">\n                        </div>\n\n                        \n         </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"model\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Model</label>\n                            <input type=\"model\" mbr-theme-style=\"display-7\" class=\"field\" name=\"model\" data-form-field=\"Model\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"vin\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-VIN-ENG\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Chassis Number &amp; Engine Number</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"VIN-ENG\" data-form-field=\"VIN-Eng\">\n                        </div>   \n                        \n             </div>\n  \n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 form-group\" data-for=\"Other Family Members:\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-family\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Other Family Members:</label>\n                            <textarea type=\"text\" mbr-theme-style=\"display-3\" class=\"form-control\" name=\"message\" data-form-field=\"family\"></textarea>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"Registration\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Registration\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Registration</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Registration\" data-form-field=\"Registration\">\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-10 col-lg-8 btn-row\">\n                            <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\">\n                                <a href=\"https://mga.net.au/\" type=\"submit\" class=\"btn btn-form btn-primary\">SEND</a>\n                            </span>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_customHTML": "<section group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Input Fields Color\" name=\"fieldsColor\" value=\"#efefef\">\n        <!-- <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\"> -->\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#355146\" selected>\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"form-1 col-md-10 col-lg-8\">\n                <h1 class=\"mbr-fonts-style mbr-section-title align-center\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>\n                    New Member Form</b></h1>\n                <div data-form-alert hidden>Thanks for filling out the form We'll be in touch soon!</div>\n                <form class=\"mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"New Membership Application\">\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"firstname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-fullname\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Name&nbsp;</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"fullname\" data-form-field=\"Full Name\" required>\n                        </div>\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"lastname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Address\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Postal Address</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Address\" data-form-field=\"Address\" required>\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"email\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">E-mail</label>\n                            <input type=\"email\" mbr-theme-style=\"display-7\" class=\"field\" name=\"email\" data-form-field=\"Email\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"phone\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-phone\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Phone</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"phone\" data-form-field=\"Phone\">\n                        </div>\n\n                        \n         </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"model\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-email\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Model</label>\n                            <input type=\"model\" mbr-theme-style=\"display-7\" class=\"field\" name=\"model\" data-form-field=\"Model\" required>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"vin\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-VIN-ENG\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Chassis Number &amp; Engine Number</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"VIN-ENG\" data-form-field=\"VIN-Eng\">\n                        </div>   \n                        \n             </div>\n  \n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 form-group\" data-for=\"Other Family Members:\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-family\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Other Family Members:</label>\n                            <textarea type=\"text\" mbr-theme-style=\"display-3\" class=\"form-control\" name=\"message\" data-form-field=\"family\"></textarea>\n                        </div>\n                        <div class=\" col-md-5 col-lg-4 input-wrap\" data-for=\"Registration\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-Registration\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Registration</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"Registration\" data-form-field=\"Registration\">\n                        </div>\n                    </div>\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-10 col-lg-8 btn-row\">\n                            <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href=\"https://mga.net.au/\" type=\"submit\" class=\"btn btn-form btn-primary\" data-app-placeholder=\"Type Text\">STEP #1 Send completed &nbsp;Membership Form to the Membership secretary.</a></span>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n   </div>\n</section>",
           "_anchor": "form3-6h",
           "_isUserblock": true,
           "_sourceTheme": "storem4",
           "_cid": "rk0jRlpSK5",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(90deg, @bg-value, @bgColor2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "& when (@gradientOverlay)": {
+                "background": "linear-gradient(90deg, @overlayColor, @overlayColor2)"
+              }
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section class=\"mbr-section info1\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#355146\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#5a31fb\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"bg.type!='color'&&overlay\">\n        <input type=\"color\" title=\"Color 2\" name=\"overlayColor2\" value=\"9e4dfe\" condition=\"gradientOverlay&&overlay\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"bgColor2\" value=\"#ffef00\" condition=\"bg.type=='color' && gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">PURCHASE OUR NEW AUTUMN COLLECTION</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Pay New Member Joining fee and 1 Year membership subscription to the Jensen Car Club of Australia</h3>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=110&item_name=Custom+Item&currency_code=AUD\" data-app-placeholder=\"Type Text\" target=\"_blank\">STEP #2 Pay joining fee &amp; membership fees ($110.00 AUD) PayPal</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rk0M3JD38F",
+          "_anchor": "info1-6m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".row": {
+              "-webkit-justify-content": "flex-start",
+              "justify-content": "flex-start"
+            },
+            "& when (@blockAlign)": {
+              ".row": {
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end"
+              }
+            },
+            ".form-container": {
+              "background": "rgba(255, 255, 255, 0.8) none repeat scroll 0 0",
+              "display": "inline-block",
+              "padding": "3rem",
+              "position": "relative"
+            },
+            ".mbr-section-title": {
+              "margin-left": "-4px"
+            },
+            ".media-container-column": {
+              "width": "100%"
+            },
+            ".form": {
+              "position": "relative",
+              "display": "inline-block",
+              "width": "100%"
+            },
+            ".mbr-section-btn": {
+              "a": {
+                "white-space": "nowrap"
+              }
+            },
+            ".form-group": {
+              "position": "relative",
+              "margin": "0",
+              "width": "100%",
+              ".form-control": {
+                "padding-left": "1rem"
+              }
+            },
+            "@media (min-width: 1600px)": {
+              ".my-col": {
+                "-webkit-flex": "0 0 50%",
+                "flex": "0 0 50%",
+                "max-width": "50%"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".form-container": {
+                "margin-left": "5rem",
+                "& when (@blockAlign)": {
+                  "margin-right": "5rem"
+                }
+              }
+            },
+            "@media (min-width: 768px)": {
+              ".mbr-section-btn": {
+                "display": "inline-block",
+                "position": "absolute",
+                "top": "0px",
+                "right": "10px"
+              },
+              ".form-group": {
+                "-webkit-flex-direction": "row",
+                "flex-direction": "row"
+              }
+            }
+          },
+          "_name": "form2",
+          "_customHTML": "<section group=\"Forms form2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Form on Left/Right\" name=\"blockAlign\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#355146\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n    <div class=\"container-fluid text-center\" data-stellar-background-ratio=\".5\">\n      <div class=\"row\" mbr-if=\"showTitle || showSubtitle || showButton\">\n        <div class=\"col-sm-12 col-md-12 col-lg-8 col-xl-7 my-col\">\n            <div class=\"form-container align-left\">\n              <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-black\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                  Opt out</h2>\n              <p class=\"mbr-text mbr-fonts-style pb-3 mbr-black\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">By entering my name in the field below an dpressing Opt out button I state that I do not wish my contact details to be included in the club magazine or members booklet.\nI understand this consent is given in order to satisfy the requirements of the privacy act 1988 \nand all subsequent legislation&nbsp;</p>\n              <div mbr-form class=\"media-container-column\">\n                  <div data-form-alert hidden>Thanks for filling out the form!</div>\n                  <form class=\"form mbr-form\" action=\"michael@mg.net.au\" method=\"post\" name=\"OPT OUT FORM\">\n                      <div class=\"form-group\">\n                          <input type=\"email\" class=\"form-control input-sm input-inverse special-form\" name=\"email\" required data-form-field=\"Email\" placeholder=\"name\">\n                      </div>\n                      <div class=\"mbr-section-btn input-group-btn\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"https://mobirise.com/\" class=\"btn btn-primary\" type=\"submit\" role=\"button\" data-app-placeholder=\"Type Text\">Opt Out</a></div>\n                  </form>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_cid": "rk0JtGiEoO",
+          "_anchor": "form2-6l",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
@@ -4443,6 +4493,155 @@
           "_cid": "rjUJp8Hqoj",
           "_protectedParams": [],
           "_global": true,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".container-fluid": {
+              "padding": "0 3rem"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "1.5em",
+              "text-align": "center"
+            },
+            ".input-main": {
+              "width": "99.6%",
+              "margin-left": ".1em",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".form-1": {
+              "margin": "0 1em",
+              "padding": "0"
+            },
+            ".input-wrap": {
+              "padding": "0",
+              "margin-bottom": "1.3em",
+              "input": {
+                "border": "1px solid #ddd",
+                "border-radius": "22px",
+                "background-color": "@fieldsColor",
+                "padding": "18px 25px",
+                "width": "96%"
+              }
+            },
+            ".form-group": {
+              "padding": "0",
+              "textarea": {
+                "background-color": "@fieldsColor",
+                "border-radius": "22px",
+                "padding": "1rem",
+                "width": "98%"
+              }
+            },
+            ".btn-row": {
+              "padding-left": "0"
+            },
+            ".btn": {
+              "padding": "1rem 4rem"
+            },
+            "@media (max-width: 767px)": {
+              ".container-fluid": {
+                "padding": "0 1rem"
+              },
+              ".btn": {
+                "padding": "1rem 2rem",
+                "font-size": "16px !important"
+              }
+            }
+          },
+          "_name": "form3",
+          "_customHTML": "<section group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Input Fields Color\" name=\"fieldsColor\" value=\"#efefef\">\n        <!-- <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\"> -->\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"form-1 col-md-10 col-lg-8\">\n                <h1 class=\"mbr-fonts-style mbr-section-title align-center\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\">By entering my name in the field below an dpressing Opt out button I state that I do not wish my contact details to be included in the club magazine or members booklet. I understand this consent is given in order to satisfy the requirements of the privacy act 1988 and all subsequent legislation&nbsp;</h1>\n                <div data-form-alert hidden>Thanks for filling out the form!\n                </div>\n                <form class=\"mbr-form\" action method=\"post\" name=\"OPT OUT FORM\">\n                    <div class=\"row input-main\">\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"firstname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-firstname\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">First Name</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"firstname\" data-form-field=\"First Name\" required>\n                        </div>\n                        <div class=\"col-md-5 col-lg-4 input-wrap\" data-for=\"lastname\">\n                            <label class=\"form-label-outside mbr-fonts-style\" for=\"form-1-lastname\" mbr-text mbr-theme-style=\"display-7\" data-app-selector=\".form-label-outside\">Last Name</label>\n                            <input type=\"text\" mbr-theme-style=\"display-7\" class=\"field\" name=\"lastname\" data-form-field=\"Last Name\" required>\n                        </div>\n                    </div>\n                \n    \n                    <div class=\"row input-main\">\n                        <div class=\"col-md-10 col-lg-8 btn-row\">\n                            <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\">\n                                <a href=\"https://mobirise.com/\" type=\"submit\" class=\"btn btn-form btn-primary\">SEND</a>\n                            </span>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_cid": "rk0Ycl4nUy",
+          "_anchor": "form3-6o",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".container-fluid": {
+              "padding": "0 3rem"
+            },
+            "ul.list-inline": {
+              "margin": "0",
+              "-webkit-align-self": "center",
+              "align-self": "center",
+              "li": {
+                "margin": "0",
+                "padding": ".5rem"
+              },
+              "img": {
+                "max-width": "6rem",
+                "padding-bottom": ".5rem",
+                "& when (@grayFilter)": {
+                  "-webkit-filter": "grayscale(100%)",
+                  "-moz-filter": "grayscale(100%)",
+                  "-ms-filter": "grayscale(100%)",
+                  "-o-filter": "grayscale(100%)",
+                  "filter": "gray"
+                },
+                "&:hover": {
+                  "-webkit-filter": "none",
+                  "-moz-filter": "none",
+                  "-ms-filter": "none",
+                  "-o-filter": "none",
+                  "filter": "none"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".container-fluid": {
+                "padding": "0 1rem"
+              },
+              ".list-inline-item img": {
+                "max-width": "5rem"
+              }
+            },
+            ".underline": {
+              "padding-top": ".5rem",
+              "padding-bottom": ".5rem",
+              ".line": {
+                "width": "5rem",
+                "height": "3px",
+                "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-title,.underline": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "info4",
+          "_customHTML": "<section group=\"Info info4\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Gray Filter\" name=\"grayFilter\">\n        <input type=\"checkbox\" title=\"Visa\" name=\"showVisa\">\n        <input type=\"checkbox\" title=\"Master Card\" name=\"showMasterCard\">\n        <input type=\"checkbox\" title=\"American Express\" name=\"showAmericanExpress\">\n        <input type=\"checkbox\" title=\"Pay Pal\" name=\"showPayPal\" checked>\n        <input type=\"checkbox\" title=\"Diners Club\" name=\"showDinersClub\">\n        <input type=\"checkbox\" title=\"Discover\" name=\"showDiscover\">\n        <input type=\"checkbox\" title=\"Bitcoin\" name=\"showBitcoin\">\n        <input type=\"checkbox\" title=\"Western Union\" name=\"showWesternUnion\">\n        <input type=\"checkbox\" title=\"JCB\" name=\"showJcb\">\n        <input type=\"checkbox\" title=\"Stripe\" name=\"showStripe\">\n        <input type=\"checkbox\" title=\"Amazon\" name=\"showAmazon\">\n        <input type=\"checkbox\" title=\"Ebay\" name=\"showEbay\">\n        <input type=\"checkbox\" title=\"Union Pay\" name=\"showUnionPay\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#84090c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-12\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">\n                    SUPPORTED PAYMENT SYSTEM\n                </h2>\n                <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style pt-3 mbr-light align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-class=\"{'pb-5':!showTitle}\">At present you may pay using Paypal or via direct credit by using the \"BUY NOW\" Button above.&nbsp;</h3>\n            </div>\n\n            <div class=\"row justify-content-center col-12 col-md-12 col-lg-10 col-xl-8\" mbr-class=\"{'pt-5':showTitle}\">\n                <ul class=\"list-inline align-center\">\n                    <li class=\"list-inline-item\" mbr-if=\"showVisa\">\n                        <img src=\"../_images/payments/visa.png\" alt=\"Visa\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showMasterCard\">\n                        <img src=\"../_images/payments/master-card.png\" alt=\"Master Card\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showAmericanExpress\">\n                        <img src=\"../_images/payments/american-express.png\" alt=\"American Express\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showPayPal\">\n                        <img src=\"../_images/payments/paypal.png\" alt=\"Pay Pal\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showDinersClub\">\n                        <img src=\"../_images/payments/diners-club.png\" alt=\"Diners Club\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showDiscover\">\n                        <img src=\"../_images/payments/discover.png\" alt=\"Discover\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showBitcoin\">\n                        <img src=\"../_images/payments/bitcoin.png\" alt=\"Bitcoin\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showWesternUnion\">\n                        <img src=\"../_images/payments/western-union.png\" alt=\"Western Union\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showJcb\">\n                        <img src=\"../_images/payments/jcb.png\" alt=\"JCB\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showStripe\">\n                        <img src=\"../_images/payments/stripe.png\" alt=\"Stripe\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showAmazon\">\n                        <img src=\"../_images/payments/amazon.png\" alt=\"Amazon\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showEbay\">\n                        <img src=\"../_images/payments/ebay.png\" alt=\"Ebay\">\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"showUnionPay\">\n                        <img src=\"../_images/payments/union-pay.png\" alt=\"Union Pay\">\n                    </li>\n\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rjH0jUqn09",
+          "_anchor": "info4-3v",
+          "_protectedParams": [],
+          "_global": false,
           "_once": false,
           "_params": {}
         }
