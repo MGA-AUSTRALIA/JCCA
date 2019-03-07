@@ -7636,6 +7636,13 @@ body {
     padding-right: 3rem;
   }
 }
+.cid-rjZXucuIgd H3 {
+  color: #000000;
+}
+.cid-rjZXucuIgd .mbr-text,
+.cid-rjZXucuIgd .mbr-section-btn {
+  color: #5a142a;
+}
 .cid-rjZPX0CRgs {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -7656,94 +7663,28 @@ body {
   background-color: #5a31fb;
   background: linear-gradient(90deg, #5a31fb, #000000);
 }
-.cid-rjZSIE7DyC {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #ffffff;
+.cid-rk074nl5hy {
+  overflow: hidden !important;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #450507;
 }
-.cid-rjZSIE7DyC .container-fluid {
+.cid-rk074nl5hy .container-fluid {
   padding: 0 3rem;
 }
-.cid-rjZSIE7DyC .media-container-column {
-  padding: 0 2rem;
-}
-.cid-rjZSIE7DyC .mbr-section-title {
-  display: inline-block;
-  position: relative;
+.cid-rk074nl5hy .animated-element {
+  color: #0f7821;
 }
 @media (max-width: 767px) {
-  .cid-rjZSIE7DyC .container-fluid {
+  .cid-rk074nl5hy .container-fluid {
     padding: 0 1rem;
   }
-}
-.cid-rjZSIE7DyC .mbr-section-subtitle B {
-  color: #450507;
 }
 #custom-html-3f {
   /* Type valid CSS here */
 }
 #custom-html-3f .my-image {
   width: 100%;
-}
-.cid-rjPHQXvWwn {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/2004-0412-090832a-2000x1538.jpg");
-}
-.cid-rjPHQXvWwn .container-fluid {
-  padding: 0 3rem;
-}
-.cid-rjPHQXvWwn .mbr-section-title {
-  margin-bottom: 1.5em;
-  color: #ffffff;
-}
-.cid-rjPHQXvWwn .input-main {
-  width: 99.6%;
-  margin-left: .1em;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-rjPHQXvWwn .form-1 {
-  margin: 0 1em;
-  padding: 0;
-}
-.cid-rjPHQXvWwn .input-wrap {
-  padding: 0;
-  margin-bottom: 1.3em;
-}
-.cid-rjPHQXvWwn .input-wrap input {
-  border: 1px solid #ddd;
-  border-radius: 22px;
-  background-color: #efefef;
-  padding: 18px 25px;
-  width: 96%;
-}
-.cid-rjPHQXvWwn .form-group {
-  padding: 0;
-}
-.cid-rjPHQXvWwn .form-group textarea {
-  background-color: #efefef;
-  border-radius: 22px;
-  padding: 1rem;
-  width: 98%;
-}
-.cid-rjPHQXvWwn .btn-row {
-  padding-left: 0;
-}
-.cid-rjPHQXvWwn .btn {
-  padding: 1rem 4rem;
-}
-@media (max-width: 767px) {
-  .cid-rjPHQXvWwn .container-fluid {
-    padding: 0 1rem;
-  }
-  .cid-rjPHQXvWwn .btn {
-    padding: 1rem 2rem;
-    font-size: 16px !important;
-  }
-}
-.cid-rjPHQXvWwn .form-label-outside {
-  color: #ffffff;
 }
 .cid-rjUyRA7A7S .dropdown-item:before {
   font-family: MobiriseIcons !important;
