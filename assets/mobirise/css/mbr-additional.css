@@ -10230,7 +10230,7 @@ body {
 .cid-rkshhuWgUv {
   padding-top: 60px;
   padding-bottom: 0px;
-  background-color: #b2ccd2;
+  background-color: #ffffff;
 }
 .cid-rkshhuWgUv p {
   color: #767676;
@@ -10295,12 +10295,12 @@ body {
 .cid-rkshhuWgUv .mbr-title,
 .cid-rkshhuWgUv .underline DIV {
   text-align: left;
-  color: #ffffff;
+  color: #000000;
 }
 .cid-rkshhuWgUv .mbr-text,
 .cid-rkshhuWgUv .mbr-section-btn {
   text-align: left;
-  color: #ffffff;
+  color: #000000;
 }
 .cid-rhUttjO3PN {
   padding-top: 0px;
@@ -10437,7 +10437,7 @@ body {
 .cid-rhUEZxxcXs {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #b2ccd2;
+  background-color: #232323;
 }
 .cid-rhUEZxxcXs p {
   color: #767676;
@@ -10501,12 +10501,13 @@ body {
 }
 .cid-rhUEZxxcXs .mbr-text,
 .cid-rhUEZxxcXs .mbr-section-btn {
-  color: #000000;
+  color: #ffffff;
   text-align: left;
 }
 .cid-rhUEZxxcXs .mbr-title,
 .cid-rhUEZxxcXs .underline {
   text-align: left;
+  color: #ffffff;
 }
 .cid-rhUFnpDBZ7 {
   padding-top: 0px;
@@ -10800,7 +10801,7 @@ body {
 .cid-rjSCWZW5aa {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #b2ccd2;
+  background-color: #000000;
 }
 .cid-rjSCWZW5aa p {
   color: #767676;
@@ -11148,7 +11149,7 @@ body {
 .cid-rhUNyRd1bF {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #b2ccd2;
+  background-color: #000000;
 }
 .cid-rhUNyRd1bF p {
   color: #767676;
@@ -11212,17 +11213,18 @@ body {
 }
 .cid-rhUNyRd1bF .mbr-text,
 .cid-rhUNyRd1bF .mbr-section-btn {
-  color: #000000;
+  color: #ffffff;
   text-align: left;
 }
 .cid-rhUNyRd1bF .mbr-title,
 .cid-rhUNyRd1bF .underline {
   text-align: left;
+  color: #ffffff;
 }
 .cid-rhUMRUSLwf {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #232323;
+  background-color: #ffffff;
 }
 .cid-rhUMRUSLwf .img-wrap {
   width: 100% !important;
@@ -11277,10 +11279,18 @@ body {
     text-align: center !important;
   }
 }
+.cid-rhUMRUSLwf .mbr-text,
+.cid-rhUMRUSLwf .mbr-section-btn {
+  color: #000000;
+}
+.cid-rhUMRUSLwf .mbr-title,
+.cid-rhUMRUSLwf .underline {
+  color: #000000;
+}
 .cid-rhUB9aPD7u {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #b2ccd2;
+  background-color: #000000;
 }
 .cid-rhUB9aPD7u .img-wrap {
   width: 100% !important;
