@@ -11149,7 +11149,7 @@ body {
 .cid-rhUNyRd1bF {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #232323;
 }
 .cid-rhUNyRd1bF p {
   color: #767676;
@@ -11290,7 +11290,7 @@ body {
 .cid-rhUB9aPD7u {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #232323;
 }
 .cid-rhUB9aPD7u .img-wrap {
   width: 100% !important;
@@ -11348,6 +11348,14 @@ body {
   .cid-rhUB9aPD7u .mbr-section-btn {
     text-align: center !important;
   }
+}
+.cid-rhUB9aPD7u .mbr-text,
+.cid-rhUB9aPD7u .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-rhUB9aPD7u .mbr-title,
+.cid-rhUB9aPD7u .underline {
+  color: #ffffff;
 }
 .cid-rhUv5VIP3m {
   padding-top: 0px;
