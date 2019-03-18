@@ -1871,6 +1871,9 @@ body {
 .cid-rjqaRcYHyV P {
   text-align: center;
 }
+.cid-rjqaRcYHyV B {
+  color: #ffffff;
+}
 .cid-rbSULLS15l {
   padding-top: 90px;
   padding-bottom: 0px;
@@ -3561,6 +3564,12 @@ body {
   .cid-rjZA1R4CfP .panel-group {
     padding: 0;
   }
+}
+.cid-rjZA1R4CfP .panel-text {
+  color: #000000;
+}
+.cid-rjZA1R4CfP .panel-text B {
+  color: #000000;
 }
 .cid-rkbwGVK5wn {
   padding-top: 90px;
