@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jensen Car Club of Australia",
-    "currentPage": "index.html",
+    "currentPage": "page12.html",
     "theme": {
       "name": "storem4",
       "title": "StoreM4",
@@ -13109,13 +13109,13 @@
         {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "postToLoad": 3,
-            "facebook": "groups/318201312262162/permalink/430874897661469/",
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "postToLoad": "8",
+            "facebook": "/groups/318201312262162/permalink/430874897661469/",
             "twitter": "",
             "google": "",
-            "youtube": "watch?v=tM45IVC050o",
+            "youtube": "/watch?v=tM45IVC050o",
             "bgColorRadio": true,
             "bgColor": "#fff",
             "bgImageRadio": false,
