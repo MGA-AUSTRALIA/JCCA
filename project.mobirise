@@ -61,7 +61,7 @@
         "url": "https://fonts.googleapis.com/css?family=Didact+Gothic:400"
       }
     ],
-    "uniqCompNum": 277,
+    "uniqCompNum": 279,
     "versionPublish": "4.9.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -13109,13 +13109,13 @@
         {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "postToLoad": "8",
-            "facebook": "/groups/318201312262162/permalink/430874897661469/",
-            "twitter": "",
-            "google": "",
-            "youtube": "/watch?v=tM45IVC050o",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": 3,
+            "facebook": "mobirise",
+            "twitter": "mobirise",
+            "google": "+mobirise",
+            "youtube": "UCt_tncVAetpK5JeM8L-8jyw",
             "bgColorRadio": true,
             "bgColor": "#fff",
             "bgImageRadio": false,
@@ -13129,7 +13129,7 @@
             "Extension"
           ],
           "_name": "feed",
-          "_anchor": "feed-7o"
+          "_anchor": "feed-7q"
         }
       ]
     }
